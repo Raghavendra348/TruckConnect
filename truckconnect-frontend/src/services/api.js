@@ -2,7 +2,11 @@ import axios from 'axios';
 import { store } from '../redux/store';
 import { logout } from '../redux/authSlice';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  (import.meta.env.PROD
+    ? 'https://truckconnect-2.onrender.com/api'
+    : '/api');
 
 const api = axios.create({
   baseURL: API_BASE_URL,
