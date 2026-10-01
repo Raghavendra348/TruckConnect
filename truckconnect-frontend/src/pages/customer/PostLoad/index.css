@@ -1,0 +1,23 @@
+.post-load-page {
+  width: 100%;
+}
+
+.post-load-card-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post-load-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-load-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color);
+}

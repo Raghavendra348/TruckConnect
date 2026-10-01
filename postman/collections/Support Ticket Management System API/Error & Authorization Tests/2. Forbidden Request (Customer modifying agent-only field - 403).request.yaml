@@ -1,0 +1,24 @@
+$kind: http-request
+description: Verifies that customer cannot reassign tickets.
+url: "{{base_url}}/tickets/{{ticket_id}}"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "assigned_to_id": 2
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{customer_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 403 Forbidden', function () {
+          pm.response.to.have.status(403);
+      });
+    language: text/javascript
+order: 2000

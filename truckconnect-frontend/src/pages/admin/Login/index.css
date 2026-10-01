@@ -1,0 +1,89 @@
+.admin-login-page-container {
+  min-height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+  background-color: #0b1f3a; /* Dark Navy immersive background for admin portal */
+}
+
+.admin-login-card {
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 440px;
+  padding: 36px 32px;
+}
+
+.admin-login-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.admin-logo-wrapper {
+  margin-bottom: 12px;
+}
+
+.admin-login-logo {
+  height: 44px;
+  width: auto;
+}
+
+.admin-badge {
+  display: inline-block;
+  background-color: #fee2e2;
+  color: var(--danger-color);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 3px 10px;
+  border-radius: var(--border-radius-pill);
+  margin-bottom: 8px;
+}
+
+.admin-login-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 4px;
+}
+
+.admin-login-subtitle {
+  font-size: 12px;
+  color: var(--muted-text-color);
+}
+
+.admin-login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-login-submit-btn {
+  width: 100%;
+  margin-top: 8px;
+  background-color: var(--primary-color) !important;
+}
+
+.admin-login-submit-btn:hover {
+  background-color: #152e52 !important;
+}
+
+.admin-login-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color);
+}
+
+.admin-back-link {
+  font-size: 12px;
+  color: var(--muted-text-color);
+  font-weight: 500;
+}
+
+.admin-back-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}

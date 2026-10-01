@@ -1,0 +1,23 @@
+.owner-delivery-page {
+  width: 100%;
+}
+
+.delivery-success-banner {
+  background-color: var(--success-bg);
+  border: 1px solid #c8e6c9;
+  color: var(--success-color);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border-radius: var(--border-radius-md);
+  margin-bottom: 20px;
+}
+
+.proof-type-tag {
+  background-color: #f1f5f9;
+  color: var(--primary-color);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: var(--border-radius-sm);
+}

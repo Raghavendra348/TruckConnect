@@ -1,0 +1,21 @@
+$kind: http-request
+description: Fetches a specific ticket with full details and its threaded comment history.
+url: "{{base_url}}/tickets/{{ticket_id}}"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{customer_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+      pm.test('Includes ticket and comment list', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.id).to.eql(parseInt(pm.collectionVariables.get('ticket_id')));
+          pm.expect(jsonData).to.have.property('comments');
+      });
+    language: text/javascript
+order: 5000

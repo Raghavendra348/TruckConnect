@@ -1,0 +1,9 @@
+.customer-notifications-page {
+  width: 100%;
+}
+
+.notifications-stream {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/deliveries/1/
+description: ""
+url: http://127.0.0.1:8000/api/deliveries/1/
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"notes\": \"Customer signed the delivery receipt at destination.\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_1ay1}}"
+order: 3240069057440292

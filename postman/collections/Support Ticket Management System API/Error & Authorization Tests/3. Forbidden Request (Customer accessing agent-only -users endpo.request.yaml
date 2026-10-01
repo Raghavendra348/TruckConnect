@@ -1,0 +1,17 @@
+$kind: http-request
+name: 3. Forbidden Request (Customer accessing agent-only /users endpoint - 403)
+description: Verifies that customers cannot query the internal user directory.
+url: "{{base_url}}/users"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{customer_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 403 Forbidden', function () {
+          pm.response.to.have.status(403);
+      });
+    language: text/javascript
+order: 3000

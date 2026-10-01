@@ -1,0 +1,65 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: var(--border-radius-pill);
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+/* Success / Completed / Available / Verified / Fully Paid */
+.status-badge.status-completed,
+.status-badge.status-trip-completed,
+.status-badge.status-delivered,
+.status-badge.status-accepted,
+.status-badge.status-confirmed,
+.status-badge.status-verified,
+.status-badge.status-available,
+.status-badge.status-fully-paid,
+.status-badge.status-resolved {
+  background-color: var(--success-bg);
+  color: var(--success-color);
+  border: 1px solid #c8e6c9;
+}
+
+/* Warning / Pending / In Transit / Journey Started / Partially Paid / Under Review */
+.status-badge.status-pending,
+.status-badge.status-under-review,
+.status-badge.status-negotiating,
+.status-badge.status-partially-paid,
+.status-badge.status-draft {
+  background-color: var(--warning-bg);
+  color: #b7791f;
+  border: 1px solid #ffe082;
+}
+
+/* Active / In Transit / Driver Assigned / On Trip */
+.status-badge.status-in-transit,
+.status-badge.status-journey-started,
+.status-badge.status-driver-assigned,
+.status-badge.status-driver-reached-pickup,
+.status-badge.status-loading-completed,
+.status-badge.status-near-destination,
+.status-badge.status-arrived,
+.status-badge.status-on-trip,
+.status-badge.status-active {
+  background-color: var(--info-bg);
+  color: var(--info-color);
+  border: 1px solid #bbdefb;
+}
+
+/* Danger / Rejected / Cancelled / Overdue / Dispute */
+.status-badge.status-rejected,
+.status-badge.status-cancelled,
+.status-badge.status-overdue,
+.status-badge.status-unpaid,
+.status-badge.status-issue-reported,
+.status-badge.status-disputed {
+  background-color: var(--danger-bg);
+  color: var(--danger-color);
+  border: 1px solid #ffcdd2;
+}

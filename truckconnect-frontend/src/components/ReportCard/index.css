@@ -1,0 +1,66 @@
+.report-card {
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.report-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 8px;
+}
+
+.report-id-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.report-id {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.report-type-badge {
+  font-size: 11px;
+  background-color: #f1f5f9;
+  color: #475569;
+  padding: 2px 8px;
+  border-radius: var(--border-radius-sm);
+  font-weight: 500;
+}
+
+.report-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.report-desc {
+  font-size: 13px;
+  color: var(--text-color);
+  line-height: 1.4;
+}
+
+.report-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--muted-text-color);
+}
+
+.report-card-footer {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 8px;
+}

@@ -1,0 +1,29 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/reports/1
+description: ""
+url: http://127.0.0.1:8000/api/reports/1
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \    \"trip\": 1,\r
+
+    \    \"load\": 1,\r
+
+    \    \"reported_against\": 2,\r
+
+    \    \"report_type\": \"cargo_damaged\",\r
+
+    \    \"description\": \"Some cargo packages were damaged during transportation.\",\r
+
+    \    \"expected_information\": \"Cargo should arrive in the same condition as loaded.\",\r
+
+    \    \"actual_information\": \"Three packages were damaged when the cargo arrived.\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_173t}}"
+order: 3473385955618641

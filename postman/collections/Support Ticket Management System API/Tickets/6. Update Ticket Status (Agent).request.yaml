@@ -1,0 +1,28 @@
+$kind: http-request
+description: Agent updates the status of a ticket to in_progress.
+url: "{{base_url}}/tickets/{{ticket_id}}"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "status": "in_progress"
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{agent_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+      pm.test('Status is updated to in_progress', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.status).to.eql('in_progress');
+      });
+    language: text/javascript
+order: 6000

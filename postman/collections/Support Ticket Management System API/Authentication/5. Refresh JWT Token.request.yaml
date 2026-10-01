@@ -1,0 +1,24 @@
+$kind: http-request
+description: Generates a fresh JWT access token using the refresh token.
+url: "{{base_url}}/auth/refresh"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "refresh": "{{refresh_token}}"
+    }
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+      pm.test('Returns new access token', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('access');
+      });
+    language: text/javascript
+order: 5000

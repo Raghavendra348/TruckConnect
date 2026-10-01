@@ -1,0 +1,27 @@
+$kind: http-request
+description: Authenticates a customer and sets collection variable 'customer_token'.
+url: "{{base_url}}/auth/login"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "email": "customer@example.com",
+      "password": "Customer@123"
+    }
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+      pm.test('Extract access token', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.tokens).to.have.property('access');
+          pm.collectionVariables.set('customer_token', jsonData.tokens.access);
+          pm.collectionVariables.set('refresh_token', jsonData.tokens.refresh);
+      });
+    language: text/javascript
+order: 2000

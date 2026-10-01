@@ -1,0 +1,27 @@
+$kind: http-request
+description: Authenticates a support agent and sets collection variable 'agent_token'.
+url: "{{base_url}}/auth/login"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "email": "agent@example.com",
+      "password": "Agent@123"
+    }
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+      pm.test('Extract agent access token', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.tokens).to.have.property('access');
+          pm.expect(jsonData.user.role).to.eql('agent');
+          pm.collectionVariables.set('agent_token', jsonData.tokens.access);
+      });
+    language: text/javascript
+order: 3000

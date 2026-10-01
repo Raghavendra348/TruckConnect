@@ -1,0 +1,19 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/settlements/1/
+description: ""
+url: http://127.0.0.1:8000/api/settlements/1/
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"status\": \"settlement_proposed\",\r
+
+    \    \"admin_notes\": \"Settlement proposal sent for review\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_04gl}}"
+order: 4397286506888454

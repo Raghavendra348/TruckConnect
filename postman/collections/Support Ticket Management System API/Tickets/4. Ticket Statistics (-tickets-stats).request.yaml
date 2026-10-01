@@ -1,0 +1,25 @@
+$kind: http-request
+name: 4. Ticket Statistics (/tickets/stats)
+description: Returns dashboard metric aggregates for tickets.
+url: "{{base_url}}/tickets/stats"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{agent_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+      pm.test('Returns count metrics', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('total');
+          pm.expect(jsonData).to.have.property('open');
+          pm.expect(jsonData).to.have.property('in_progress');
+          pm.expect(jsonData).to.have.property('resolved');
+          pm.expect(jsonData).to.have.property('closed');
+      });
+    language: text/javascript
+order: 4000

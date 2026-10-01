@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" width="240" height="50" fill="none">
+  <!-- Truck Icon Mark -->
+  <g transform="translate(6, 7)">
+    <!-- Cabin & Body -->
+    <path d="M4 22V6C4 4.89543 4.89543 4 6 4H24C25.1046 4 26 4.89543 26 6V22" stroke="#0b1f3a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M26 10H32.5858C33.3815 10 34.1446 10.3161 34.7071 10.8787L39.1213 15.2929C39.6839 15.8554 40 16.6185 40 17.4142V22" stroke="#0b1f3a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Cargo Box Accent / Connect Node -->
+    <rect x="8" y="8" width="14" height="10" rx="2" fill="#ff7a00" />
+    <circle cx="15" cy="13" r="2" fill="#ffffff" />
+    <!-- Connector Lines -->
+    <path d="M17 13H22" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Wheels -->
+    <circle cx="11" cy="24" r="3.5" fill="#0b1f3a" stroke="#ff7a00" stroke-width="2"/>
+    <circle cx="33" cy="24" r="3.5" fill="#0b1f3a" stroke="#4caf50" stroke-width="2"/>
+    <!-- Speed line / Connection -->
+    <path d="M0 24H5" stroke="#ff7a00" stroke-width="2" stroke-linecap="round"/>
+    <path d="M16 24H28" stroke="#0b1f3a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Brand Text -->
+  <text x="56" y="32" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="21" fill="#0b1f3a" letter-spacing="-0.5">
+    TRUCK<tspan fill="#ff7a00">CONNECT</tspan>
+  </text>
+  <circle cx="218" cy="18" r="3.5" fill="#4caf50" />
+</svg>

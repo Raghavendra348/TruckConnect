@@ -1,0 +1,10 @@
+.owner-payments-page {
+  width: 100%;
+}
+
+.no-trans-txt {
+  padding: 16px;
+  text-align: center;
+  color: var(--muted-text-color);
+  font-size: 13px;
+}

@@ -1,0 +1,25 @@
+$kind: http-request
+description: Lists all support agents available for ticket assignment.
+url: "{{base_url}}/users?role=agent"
+method: GET
+queryParams:
+  role: agent
+auth:
+  type: bearer
+  credentials:
+    token: "{{agent_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+      pm.test('Returns list of agents', function () {
+          var jsonData = pm.response.json();
+          pm.expect(Array.isArray(jsonData)).to.be.true;
+          if (jsonData.length > 0) {
+              pm.collectionVariables.set('agent_id', jsonData[0].id);
+          }
+      });
+    language: text/javascript
+order: 1000

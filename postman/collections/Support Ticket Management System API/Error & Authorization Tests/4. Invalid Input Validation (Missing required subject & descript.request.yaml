@@ -1,0 +1,29 @@
+$kind: http-request
+name: 4. Invalid Input Validation (Missing required subject & description - 400)
+description: Verifies that ticket creation without mandatory fields returns 400 Bad Request with field errors.
+url: "{{base_url}}/tickets"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "priority": "high"
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{customer_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 400 Bad Request', function () {
+          pm.response.to.have.status(400);
+      });
+      pm.test('Response includes field validation errors', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('errors');
+      });
+    language: text/javascript
+order: 4000

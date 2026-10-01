@@ -1,0 +1,66 @@
+.truck-card {
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.truck-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.truck-info-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.truck-plate {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--primary-color);
+  letter-spacing: 0.5px;
+}
+
+.truck-type-text {
+  font-size: 11px;
+  color: var(--muted-text-color);
+}
+
+.truck-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.meta-label {
+  color: var(--muted-text-color);
+}
+
+.meta-val {
+  color: var(--text-color);
+}
+
+.truck-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}

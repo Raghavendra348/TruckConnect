@@ -1,0 +1,97 @@
+.owner-settlements-page {
+  width: 100%;
+}
+
+.settlements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.owner-settle-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.settle-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.settle-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.settle-id-num {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--primary-color);
+}
+
+.settle-trip-tag {
+  font-size: 12px;
+  background-color: #f1f5f9;
+  padding: 2px 8px;
+  border-radius: var(--border-radius-sm);
+  color: var(--muted-text-color);
+}
+
+.settle-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  background-color: #f8fafc;
+  padding: 14px;
+  border-radius: var(--border-radius-md);
+}
+
+@media (max-width: 768px) {
+  .settle-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.settle-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-lbl {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--muted-text-color);
+  font-weight: 600;
+}
+
+.c-val {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-top: 2px;
+}
+
+.final-green {
+  color: var(--success-color);
+  font-size: 16px;
+}
+
+.settle-reason {
+  background-color: #f8fafc;
+  border-left: 3px solid var(--info-color);
+  padding: 8px 12px;
+  font-size: 13px;
+  color: var(--text-color);
+}
+
+.settle-date-footer {
+  font-size: 11px;
+  color: var(--muted-text-color);
+  border-top: 1px solid #f8fafc;
+  padding-top: 6px;
+}

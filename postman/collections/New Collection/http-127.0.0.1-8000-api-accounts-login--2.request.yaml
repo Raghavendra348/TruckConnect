@@ -1,0 +1,15 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/accounts/login/
+description: ""
+url: http://127.0.0.1:8000/api/accounts/login/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"ragava12@gmail.com\",\r
+
+    \    \"password\": \"ragava123\"\r
+
+    }"
+order: 2225478708566851

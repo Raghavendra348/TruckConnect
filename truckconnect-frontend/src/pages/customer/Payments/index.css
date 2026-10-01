@@ -1,0 +1,126 @@
+.customer-payments-page {
+  width: 100%;
+}
+
+.payments-success-banner {
+  background-color: var(--success-bg);
+  border: 1px solid #c8e6c9;
+  color: var(--success-color);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border-radius: var(--border-radius-md);
+  margin-bottom: 20px;
+}
+
+.payments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.customer-payment-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.payment-card-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.payment-head-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-tag {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--primary-color);
+}
+
+.payment-trip-tag {
+  font-size: 12px;
+  color: var(--muted-text-color);
+  background-color: #f1f5f9;
+  padding: 2px 8px;
+  border-radius: var(--border-radius-sm);
+}
+
+.payment-financial-breakdown {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  background-color: #f8fafc;
+  padding: 14px;
+  border-radius: var(--border-radius-md);
+}
+
+@media (max-width: 768px) {
+  .payment-financial-breakdown {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.fin-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.fin-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--muted-text-color);
+  font-weight: 600;
+}
+
+.fin-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-top: 2px;
+}
+
+.paid-green {
+  color: var(--success-color);
+}
+
+.remaining-orange {
+  color: var(--secondary-color);
+}
+
+.fin-value-date {
+  font-size: 13px;
+  color: var(--text-color);
+  margin-top: 4px;
+}
+
+.payment-action-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 10px;
+}
+
+.modal-actions-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.no-transactions-text {
+  font-size: 13px;
+  color: var(--muted-text-color);
+  padding: 16px;
+  text-align: center;
+}

@@ -1,0 +1,146 @@
+.customer-loads-page {
+  width: 100%;
+}
+
+.loads-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.status-tabs {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: var(--border-radius-md);
+  padding: 4px;
+  gap: 4px;
+  overflow-x: auto;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted-text-color);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tab-btn:hover {
+  color: var(--primary-color);
+}
+
+.tab-btn.tab-btn-active {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.search-input-wrapper {
+  min-width: 280px;
+}
+
+.loads-search-input {
+  margin-bottom: 0 !important;
+}
+
+.table-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Modal Content */
+.load-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-status-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.modal-route-box {
+  background-color: #f8fafc;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.route-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.route-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--muted-text-color);
+  font-weight: 600;
+}
+
+.route-desc {
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.route-time {
+  font-size: 12px;
+  color: var(--muted-text-color);
+  margin-top: 2px;
+}
+
+.route-arrow-down {
+  color: var(--secondary-color);
+  font-size: 16px;
+  padding-left: 4px;
+}
+
+.modal-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.modal-detail-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-label {
+  font-size: 11px;
+  color: var(--muted-text-color);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.modal-value {
+  color: var(--text-color);
+  font-size: 13px;
+}
+
+.modal-special-reqs {
+  background-color: #fffaf0;
+  border: 1px solid #fed7aa;
+  border-radius: var(--border-radius-md);
+  padding: 10px 12px;
+}
+
+.special-reqs-text {
+  font-size: 13px;
+  color: #7c2d12;
+  margin-top: 4px;
+}

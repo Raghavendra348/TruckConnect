@@ -1,0 +1,47 @@
+.forgot-success-container {
+  text-align: center;
+  padding: 16px 0;
+}
+
+.forgot-success-icon {
+  font-size: 36px;
+  color: var(--secondary-color);
+  margin-bottom: 12px;
+}
+
+.forgot-success-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
+.forgot-success-text {
+  font-size: 13px;
+  color: var(--muted-text-color);
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.forgot-success-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.forgot-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-login-link {
+  font-size: 13px;
+  color: var(--muted-text-color);
+  font-weight: 500;
+}
+
+.back-login-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+.owner-expenses-page {
+  width: 100%;
+}
+
+.expenses-success-banner {
+  background-color: var(--success-bg);
+  border: 1px solid #c8e6c9;
+  color: var(--success-color);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border-radius: var(--border-radius-md);
+  margin-bottom: 20px;
+}
+
+.expense-stat-banner {
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exp-stat-lbl {
+  font-size: 13px;
+  color: var(--muted-text-color);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.exp-stat-val {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.exp-type-badge {
+  background-color: #f1f5f9;
+  color: var(--primary-color);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: var(--border-radius-sm);
+}

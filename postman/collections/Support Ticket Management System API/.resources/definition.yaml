@@ -1,0 +1,9 @@
+$kind: collection
+description: Comprehensive Postman collection for the Support Ticket Management System covering Authentication, Ticket Lifecycle, Comments, Stats, Role Authorization, and Error Validations.
+variables:
+  base_url: http://127.0.0.1:8000/api
+  customer_token: ""
+  agent_token: ""
+  refresh_token: ""
+  ticket_id: "1"
+  agent_id: "2"

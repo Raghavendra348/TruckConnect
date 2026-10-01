@@ -1,0 +1,19 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/notifications/1/read/
+description: ""
+url: http://127.0.0.1:8000/api/notifications/1/read/
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"is_read\": true,\r
+
+    \    \"read_at\": \"2026-09-25T...\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_07oj}}"
+order: 4424629624916751

@@ -1,0 +1,136 @@
+.navbar-header {
+  height: 60px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  box-shadow: var(--shadow-sm);
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sidebar-toggle-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--white-color);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 36px;
+  width: auto;
+  filter: brightness(0) invert(1); /* makes the dark text white inside the navy navbar */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-icon-btn {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: var(--border-radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.navbar-icon-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-user-section {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.navbar-user-info {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.navbar-user-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+.navbar-user-role {
+  font-size: 10px;
+  color: #a0aec0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.navbar-logout-btn {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--white-color);
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.navbar-logout-btn:hover {
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+}
+
+.navbar-auth-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-auth-link {
+  color: var(--white-color);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: var(--border-radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.navbar-auth-link:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 768px) {
+  .navbar-header {
+    padding: 0 16px;
+  }
+
+  .sidebar-toggle-btn {
+    display: block;
+  }
+
+  .navbar-user-role {
+    display: none;
+  }
+}

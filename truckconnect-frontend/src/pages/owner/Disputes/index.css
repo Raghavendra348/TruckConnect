@@ -1,0 +1,59 @@
+.owner-disputes-page {
+  width: 100%;
+}
+
+.disputes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.owner-dispute-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dispute-header-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.dispute-case-num {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--primary-color);
+}
+
+.dispute-content-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dispute-content-body p {
+  font-size: 13px;
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.dispute-r-box {
+  background-color: #ecfdf5;
+  border-left: 3px solid var(--success-color);
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #065f46;
+}
+
+.dispute-meta-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--muted-text-color);
+  border-top: 1px solid #f8fafc;
+  padding-top: 6px;
+}

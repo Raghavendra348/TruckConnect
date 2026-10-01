@@ -1,0 +1,32 @@
+$kind: http-request
+description: Customer creates a support ticket with subject, description, and priority.
+url: "{{base_url}}/tickets"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "subject": "Billing query regarding recent invoice",
+      "description": "I was charged twice for subscription plan #4928. Kindly investigate.",
+      "priority": "high"
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{customer_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 201 Created', function () {
+          pm.response.to.have.status(201);
+      });
+      pm.test('Saves created ticket ID', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('id');
+          pm.expect(jsonData.status).to.eql('open');
+          pm.collectionVariables.set('ticket_id', jsonData.id);
+      });
+    language: text/javascript
+order: 1000

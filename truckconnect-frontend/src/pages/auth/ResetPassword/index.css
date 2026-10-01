@@ -1,0 +1,16 @@
+.reset-success-box {
+  background-color: var(--success-bg);
+  border: 1px solid #c8e6c9;
+  color: var(--success-color);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: var(--border-radius-md);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.reset-footer {
+  text-align: center;
+  margin-top: 20px;
+}

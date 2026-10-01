@@ -1,0 +1,5 @@
+/* ProtectedRoute styles if needed for full page loader or fallback wrapper */
+.protected-route-wrapper {
+  width: 100%;
+  min-height: 100vh;
+}

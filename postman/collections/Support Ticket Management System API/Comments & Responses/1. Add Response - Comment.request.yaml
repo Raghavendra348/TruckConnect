@@ -1,0 +1,31 @@
+$kind: http-request
+name: 1. Add Response / Comment
+description: Adds a new response comment to a ticket thread.
+url: "{{base_url}}/tickets/{{ticket_id}}/comments"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "comment": "Hello! We have reviewed your invoice and refunded the duplicate charge. Please check your bank statement."
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{agent_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 201 Created', function () {
+          pm.response.to.have.status(201);
+      });
+      pm.test('Returns comment object', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('id');
+          pm.expect(jsonData).to.have.property('comment');
+          pm.expect(jsonData.user).to.have.property('name');
+      });
+    language: text/javascript
+order: 1000

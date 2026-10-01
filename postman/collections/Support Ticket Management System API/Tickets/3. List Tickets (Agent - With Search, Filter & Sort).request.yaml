@@ -1,0 +1,25 @@
+$kind: http-request
+description: Agent fetches tickets with filtering by status, priority, search text, and sorting order.
+url: "{{base_url}}/tickets?status=open&priority=high&ordering=-created_at&search=billing"
+method: GET
+queryParams:
+  status: open
+  priority: high
+  ordering: -created_at
+  search: billing
+auth:
+  type: bearer
+  credentials:
+    token: "{{agent_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+      pm.test('Agent can see all system tickets', function () {
+          var jsonData = pm.response.json();
+          pm.expect(Array.isArray(jsonData)).to.be.true;
+      });
+    language: text/javascript
+order: 3000

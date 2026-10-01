@@ -1,0 +1,29 @@
+$kind: http-request
+description: Assigns a ticket to a support agent and updates priority.
+url: "{{base_url}}/tickets/{{ticket_id}}"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "assigned_to_id": {{agent_id}},
+      "priority": "urgent"
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{agent_token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+      pm.test('Assigned to agent', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.assigned_to).to.not.be.null;
+      });
+    language: text/javascript
+order: 7000
