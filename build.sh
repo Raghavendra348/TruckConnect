@@ -3,5 +3,11 @@
 set -o errexit
 
 pip install -r requirements.txt
-python truckconnect-backend/manage.py collectstatic --no-input || true
-python truckconnect-backend/manage.py migrate
+
+if [ -f "manage.py" ]; then
+    python manage.py collectstatic --no-input || true
+    python manage.py migrate
+elif [ -f "truckconnect-backend/manage.py" ]; then
+    python truckconnect-backend/manage.py collectstatic --no-input || true
+    python truckconnect-backend/manage.py migrate
+fi
