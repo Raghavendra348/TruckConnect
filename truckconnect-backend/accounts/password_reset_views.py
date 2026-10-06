@@ -11,10 +11,30 @@ from rest_framework.views import APIView
 User = get_user_model()
 
 
+def ensure_initial_data_loaded():
+    if User.objects.count() == 0:
+        from pathlib import Path
+        from django.core.management import call_command
+        possible_paths = [
+            Path("data_backup.json"),
+            Path("truckconnect-backend/data_backup.json"),
+            Path(__file__).resolve().parent.parent / "data_backup.json",
+            Path(__file__).resolve().parent.parent.parent / "data_backup.json",
+        ]
+        for p in possible_paths:
+            if p.exists():
+                try:
+                    call_command("loaddata", str(p))
+                    break
+                except Exception:
+                    pass
+
+
 class ForgotPasswordView(APIView):
     permission_classes = [AllowAny]
 
     def post(self, request):
+        ensure_initial_data_loaded()
         email = (request.data.get("email") or "").strip().lower()
 
         if not email:
