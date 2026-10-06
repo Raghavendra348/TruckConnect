@@ -1,0 +1,4771 @@
+[
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$yte9DQTkS4zKqMI5W0IMEF$nuFwNWODmZh/DOJ/ylZik+qL8M12DwbvBqMuuzjA5L0=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-23T12:25:34.702Z",
+    "email": "customer@test.com",
+    "full_name": "Test Customer",
+    "mobile_number": "9876543210",
+    "profile_photo": "",
+    "address": "Hyderabad, Telangana",
+    "role": "customer",
+    "company_name": null,
+    "verification_status": "verified",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$hUrqwOT3unM1Botk03rPL6$/NCd/y/eK3ULQjihjMixnKOl3kQxn0rrhXzlzbGHFpE=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-23T12:30:03.210Z",
+    "email": "customer1@test.com",
+    "full_name": "Test Customer",
+    "mobile_number": "9876543210",
+    "profile_photo": "",
+    "address": "Hyderabad, Telangana",
+    "role": "customer",
+    "company_name": null,
+    "verification_status": "pending",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$DOS2YWsHENmUMyKvdhpWjx$oesIPycY/0b52uf9nSx8yns13xz/5agFi/7ueYffbYk=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-23T12:32:27.613Z",
+    "email": "owner@test.com",
+    "full_name": "Test Truck Owner",
+    "mobile_number": "9876543211",
+    "profile_photo": "",
+    "address": "Hyderabad, Telangana",
+    "role": "truck_owner",
+    "company_name": "Test Transport Services",
+    "verification_status": "verified",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$FEt8zLojCFLP8C4PdrODF4$+KYSCTKJ41+lkaseKa30xmvOn3/BvL/vJXV0srlqQ+U=",
+    "last_login": null,
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-25T11:47:05.559Z",
+    "email": "ragava12@gmail.com",
+    "full_name": "Raghavendra",
+    "mobile_number": "6281923475",
+    "profile_photo": "",
+    "address": null,
+    "role": "admin",
+    "company_name": null,
+    "verification_status": "pending",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$2BedTIixzSwsyUKsQok5iW$waEg6OtOONTVeTQXr4m7ju00vzrkbc2YdjoDMADfAys=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-30T07:54:49.253Z",
+    "email": "thungaraghavendrareddy606@gmail.com",
+    "full_name": "THUNGA RAGHVENDRA REDDY",
+    "mobile_number": "06281923475",
+    "profile_photo": "",
+    "address": "Nossamvaripalli RGpalli muddunur mandal kadapa dist,516380",
+    "role": "customer",
+    "company_name": "T.R.R",
+    "verification_status": "verified",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$0Qyz2KbuLHE7ieI7DW5r30$z3qPf6BxG47JZBRuJxxYiYkFiMXsW+7u9OTWUlt4dlw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-30T07:57:24.730Z",
+    "email": "thungaraghavendrareddy605@gmail.com",
+    "full_name": "THUNGA RAGHVENDRA REDDY",
+    "mobile_number": "6281923475",
+    "profile_photo": "",
+    "address": "Nossamvaripalli RGpalli muddunur mandal kadapa dist,516380",
+    "role": "truck_owner",
+    "company_name": "T.R.R.A",
+    "verification_status": "verified",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$ZAQJIkeGQ7OyZ21RCFvzct$y52zWkmc0Ecf/w8Ef1Lf9WVWqUWZ1mNPdO6XG0dQt3E=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-06T10:58:23.987Z",
+    "email": "customer@truckconnect.com",
+    "full_name": "Demo Customer",
+    "mobile_number": "9876543211",
+    "profile_photo": "",
+    "address": null,
+    "role": "customer",
+    "company_name": "Apex Cargo Ltd",
+    "verification_status": "verified",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$VZpwWeOLmSLRLPRpQHIZID$i8cYB45hx0/Qbrx6fNQSq/1iieA70/6GXyO8U9X2mdc=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-06T10:58:25.066Z",
+    "email": "owner@truckconnect.com",
+    "full_name": "Demo Transporter",
+    "mobile_number": "9876543212",
+    "profile_photo": "",
+    "address": null,
+    "role": "truck_owner",
+    "company_name": "FastTrack Transport",
+    "verification_status": "verified",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$h5MzYMMoq8GDpenAHGUv4Z$PA5AjXR+vc/3p/PrQnXN8HeucdX19PsnfFNwXaiGvQ0=",
+    "last_login": null,
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-06T10:58:26.102Z",
+    "email": "admin@truckconnect.com",
+    "full_name": "System Administrator",
+    "mobile_number": "9876543213",
+    "profile_photo": "",
+    "address": null,
+    "role": "admin",
+    "company_name": "TruckConnect Platform",
+    "verification_status": "verified",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "trucks.truck",
+  "pk": 1,
+  "fields": {
+    "owner": [
+      "owner@test.com"
+    ],
+    "registration_number": "TS09AB1234",
+    "truck_type": "Heavy Container Truck",
+    "capacity_kg": "15000.00",
+    "manufacturer": "Tata",
+    "model": "Prima",
+    "year": 2024,
+    "fuel_type": "Diesel",
+    "truck_photo": "",
+    "base_location": "Hyderabad",
+    "current_location": "Bengaluru",
+    "current_location_updated_at": "2026-09-26T18:36:34.142Z",
+    "status": "on_trip",
+    "created_at": "2026-09-23T18:28:25.237Z",
+    "updated_at": "2026-09-26T18:36:34.142Z"
+  }
+},
+{
+  "model": "trucks.truck",
+  "pk": 2,
+  "fields": {
+    "owner": [
+      "owner@test.com"
+    ],
+    "registration_number": "TS09TR0002",
+    "truck_type": "Container Truck",
+    "capacity_kg": "15000.00",
+    "manufacturer": "Tata",
+    "model": "Prima",
+    "year": 2024,
+    "fuel_type": "Diesel",
+    "truck_photo": "",
+    "base_location": "Hyderabad",
+    "current_location": "Hyderabad",
+    "current_location_updated_at": "2026-09-28T06:26:32.141Z",
+    "status": "on_trip",
+    "created_at": "2026-09-28T06:26:32.141Z",
+    "updated_at": "2026-09-28T06:26:32.141Z"
+  }
+},
+{
+  "model": "trucks.truck",
+  "pk": 3,
+  "fields": {
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "registration_number": "MF12AP1234",
+    "truck_type": "Container 32ft Multi-Axle34FT",
+    "capacity_kg": "15000.00",
+    "manufacturer": "Tata Motors",
+    "model": "Signa 4825.TK",
+    "year": 2023,
+    "fuel_type": "Diesel",
+    "truck_photo": "",
+    "base_location": null,
+    "current_location": "KADAPA",
+    "current_location_updated_at": "2026-09-30T08:27:26.473Z",
+    "status": "available",
+    "created_at": "2026-09-30T08:27:26.473Z",
+    "updated_at": "2026-10-01T05:51:51.925Z"
+  }
+},
+{
+  "model": "trucks.truckdocument",
+  "pk": 1,
+  "fields": {
+    "truck": 1,
+    "document_type": "rc",
+    "document_number": "TS09RC123456",
+    "file": "truck_documents/Screenshot_2026-09-23_231856.png",
+    "expiry_date": "2034-09-24",
+    "verification_status": "pending",
+    "verified_by": null,
+    "verified_at": null,
+    "created_at": "2026-09-24T05:24:13.929Z",
+    "updated_at": "2026-09-24T05:24:13.929Z"
+  }
+},
+{
+  "model": "trucks.truckdocument",
+  "pk": 2,
+  "fields": {
+    "truck": 1,
+    "document_type": "puc",
+    "document_number": "PUC123456789",
+    "file": "truck_documents/Screenshot_2026-09-23_231856_xePSkgi.png",
+    "expiry_date": "2034-09-24",
+    "verification_status": "pending",
+    "verified_by": null,
+    "verified_at": null,
+    "created_at": "2026-09-24T05:25:27.560Z",
+    "updated_at": "2026-09-24T05:25:27.560Z"
+  }
+},
+{
+  "model": "drivers.driver",
+  "pk": 1,
+  "fields": {
+    "owner": [
+      "owner@test.com"
+    ],
+    "full_name": "Ravi Kumar",
+    "photo": "drivers/Screenshot_2026-09-23_231856.png",
+    "mobile_number": "9876543211",
+    "driving_licence": "driver_documents/Screenshot_2026-09-23_225053.png",
+    "licence_number": "AKDBDU",
+    "licence_expiry": "2030-12-31",
+    "experience_years": 9,
+    "address": "Bengaluru",
+    "emergency_contact": "1234567890",
+    "verification_status": "pending",
+    "status": "on_trip",
+    "created_at": "2026-09-24T05:47:17.840Z",
+    "updated_at": "2026-09-24T05:48:03.439Z"
+  }
+},
+{
+  "model": "drivers.driver",
+  "pk": 2,
+  "fields": {
+    "owner": [
+      "owner@test.com"
+    ],
+    "full_name": "raghavendra",
+    "photo": "drivers/Screenshot_2026-09-23_231856_FRqHOJF.png",
+    "mobile_number": "1234567890",
+    "driving_licence": "driver_documents/Screenshot_2026-09-23_201155.png",
+    "licence_number": "AKDBDU_NEW",
+    "licence_expiry": "2030-12-31",
+    "experience_years": 0,
+    "address": "988",
+    "emergency_contact": "1234567890",
+    "verification_status": "verified",
+    "status": "on_trip",
+    "created_at": "2026-09-24T05:53:35.088Z",
+    "updated_at": "2026-09-28T06:55:04.364Z"
+  }
+},
+{
+  "model": "drivers.driver",
+  "pk": 3,
+  "fields": {
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "full_name": "Thunga Raghavendra reddy",
+    "photo": "",
+    "mobile_number": "06281923475",
+    "driving_licence": "driver_documents/2026-08-30.png",
+    "licence_number": "23456U7HTRVFE",
+    "licence_expiry": "2029-07-27",
+    "experience_years": 5,
+    "address": "Nossamvaripalli RGpalli muddunur mandal kadapa dist,516380\r\nNossamvaripalli RGpalli muddunur mandal kadapa dist,516380",
+    "emergency_contact": "12345678980",
+    "verification_status": "verified",
+    "status": "available",
+    "created_at": "2026-09-30T08:29:53.201Z",
+    "updated_at": "2026-10-01T05:51:51.925Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 1,
+  "fields": {
+    "customer": [
+      "customer@test.com"
+    ],
+    "goods_type": "Electronics123",
+    "weight_kg": "10000.00",
+    "pickup_location": "Hyderabad",
+    "destination": "lockow",
+    "pickup_date": "2026-09-30",
+    "pickup_time": "09:00:00",
+    "special_requirements": "Handle cargo carefully....................",
+    "status": "cancelled",
+    "created_at": "2026-09-23T17:14:14.607Z",
+    "updated_at": "2026-09-23T17:25:20.451Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 2,
+  "fields": {
+    "customer": [
+      "customer@test.com"
+    ],
+    "goods_type": "Electronics123",
+    "weight_kg": "10000.00",
+    "pickup_location": "Hyderabad",
+    "destination": "lockow",
+    "pickup_date": "2026-09-30",
+    "pickup_time": "09:00:00",
+    "special_requirements": "Handle cargo carefully....................",
+    "status": "cancelled",
+    "created_at": "2026-09-23T17:15:45.979Z",
+    "updated_at": "2026-09-23T17:18:27.762Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 3,
+  "fields": {
+    "customer": [
+      "customer@test.com"
+    ],
+    "goods_type": "Electronics123",
+    "weight_kg": "10000.00",
+    "pickup_location": "Hyderabad",
+    "destination": "kadapa",
+    "pickup_date": "2026-09-22",
+    "pickup_time": "09:00:00",
+    "special_requirements": "Handle cargo carefully",
+    "status": "booked",
+    "created_at": "2026-09-23T17:26:38.976Z",
+    "updated_at": "2026-09-23T17:27:16.913Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 4,
+  "fields": {
+    "customer": [
+      "customer@test.com"
+    ],
+    "goods_type": "Electronics",
+    "weight_kg": "10000.00",
+    "pickup_location": "Hyderabad",
+    "destination": "Bangalore",
+    "pickup_date": "2026-10-05",
+    "pickup_time": "10:00:00",
+    "special_requirements": "Handle with care",
+    "status": "booked",
+    "created_at": "2026-09-26T18:44:10.947Z",
+    "updated_at": "2026-09-26T18:44:10.947Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 5,
+  "fields": {
+    "customer": [
+      "customer@test.com"
+    ],
+    "goods_type": "Electronics",
+    "weight_kg": "10000.00",
+    "pickup_location": "Hyderabad",
+    "destination": "Bangalore",
+    "pickup_date": "2026-10-10",
+    "pickup_time": "10:00:00",
+    "special_requirements": "Handle with care",
+    "status": "booked",
+    "created_at": "2026-09-28T06:48:33.040Z",
+    "updated_at": "2026-09-28T06:48:33.040Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 6,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "goods_type": "electronics",
+    "weight_kg": "10000.00",
+    "pickup_location": "kadapa",
+    "destination": "hyderbad",
+    "pickup_date": "2026-10-02",
+    "pickup_time": "11:30:00",
+    "special_requirements": "be save with gcargo",
+    "status": "booked",
+    "created_at": "2026-09-30T08:00:23.429Z",
+    "updated_at": "2026-09-30T08:00:23.429Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 7,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "goods_type": "electronics123",
+    "weight_kg": "20000.00",
+    "pickup_location": "hyderabad",
+    "destination": "proddutur",
+    "pickup_date": "2026-10-02",
+    "pickup_time": "00:49:00",
+    "special_requirements": "fghujopp",
+    "status": "cancelled",
+    "created_at": "2026-09-30T19:18:08.415Z",
+    "updated_at": "2026-10-01T05:18:07.064Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 8,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "goods_type": "electronics1234",
+    "weight_kg": "10000.00",
+    "pickup_location": "hyderabad",
+    "destination": "proddutur",
+    "pickup_date": "2026-10-03",
+    "pickup_time": "01:51:00",
+    "special_requirements": null,
+    "status": "completed",
+    "created_at": "2026-09-30T19:21:11.616Z",
+    "updated_at": "2026-09-30T19:36:00.257Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 9,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "goods_type": "agri",
+    "weight_kg": "12000.00",
+    "pickup_location": "kadapa",
+    "destination": "proddutur",
+    "pickup_date": "2026-10-02",
+    "pickup_time": "04:09:00",
+    "special_requirements": null,
+    "status": "completed",
+    "created_at": "2026-09-30T19:38:16.426Z",
+    "updated_at": "2026-09-30T19:42:00.440Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 10,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "goods_type": "agri122",
+    "weight_kg": "10000.00",
+    "pickup_location": "kolkata",
+    "destination": "hyderbad",
+    "pickup_date": "2026-10-04",
+    "pickup_time": "00:17:00",
+    "special_requirements": "handle care",
+    "status": "completed",
+    "created_at": "2026-10-01T05:47:49.922Z",
+    "updated_at": "2026-10-01T05:51:51.925Z"
+  }
+},
+{
+  "model": "loads.load",
+  "pk": 11,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "goods_type": "electronics123",
+    "weight_kg": "12000.00",
+    "pickup_location": "kolkata",
+    "destination": "proddutur",
+    "pickup_date": "2026-10-02",
+    "pickup_time": "11:39:00",
+    "special_requirements": null,
+    "status": "offer_received",
+    "created_at": "2026-10-01T06:07:45.732Z",
+    "updated_at": "2026-10-01T06:07:45.732Z"
+  }
+},
+{
+  "model": "offers.offer",
+  "pk": 1,
+  "fields": {
+    "load": 3,
+    "owner": [
+      "owner@test.com"
+    ],
+    "truck": 1,
+    "offered_price": "17500.00",
+    "owner_message": "We can transport the cargo safely and reach the destination as scheduled.",
+    "status": "accepted",
+    "created_at": "2026-09-24T10:50:50.269Z",
+    "updated_at": "2026-09-24T11:06:37.695Z"
+  }
+},
+{
+  "model": "offers.offer",
+  "pk": 2,
+  "fields": {
+    "load": 4,
+    "owner": [
+      "owner@test.com"
+    ],
+    "truck": 1,
+    "offered_price": "18000.00",
+    "owner_message": "We can transport this load.",
+    "status": "accepted",
+    "created_at": "2026-09-26T19:06:59.936Z",
+    "updated_at": "2026-09-26T19:14:52.302Z"
+  }
+},
+{
+  "model": "offers.offer",
+  "pk": 3,
+  "fields": {
+    "load": 5,
+    "owner": [
+      "owner@test.com"
+    ],
+    "truck": 2,
+    "offered_price": "20000.00",
+    "owner_message": "Available truck for your shipment.",
+    "status": "accepted",
+    "created_at": "2026-09-28T06:48:44.616Z",
+    "updated_at": "2026-09-28T06:52:21.512Z"
+  }
+},
+{
+  "model": "offers.offer",
+  "pk": 4,
+  "fields": {
+    "load": 6,
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "truck": 3,
+    "offered_price": "25000.00",
+    "owner_message": "",
+    "status": "accepted",
+    "created_at": "2026-09-30T08:29:11.498Z",
+    "updated_at": "2026-09-30T08:53:14.550Z"
+  }
+},
+{
+  "model": "offers.offer",
+  "pk": 5,
+  "fields": {
+    "load": 8,
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "truck": 3,
+    "offered_price": "22000.00",
+    "owner_message": null,
+    "status": "accepted",
+    "created_at": "2026-09-30T19:21:56.137Z",
+    "updated_at": "2026-09-30T19:23:17.693Z"
+  }
+},
+{
+  "model": "offers.offer",
+  "pk": 6,
+  "fields": {
+    "load": 9,
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "truck": 3,
+    "offered_price": "7000.00",
+    "owner_message": "",
+    "status": "accepted",
+    "created_at": "2026-09-30T19:38:39.561Z",
+    "updated_at": "2026-09-30T19:39:53.136Z"
+  }
+},
+{
+  "model": "offers.offer",
+  "pk": 7,
+  "fields": {
+    "load": 10,
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "truck": 3,
+    "offered_price": "40000.00",
+    "owner_message": "",
+    "status": "accepted",
+    "created_at": "2026-10-01T05:48:23.080Z",
+    "updated_at": "2026-10-01T05:50:33.952Z"
+  }
+},
+{
+  "model": "offers.offer",
+  "pk": 9,
+  "fields": {
+    "load": 11,
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "truck": 3,
+    "offered_price": "45000.00",
+    "owner_message": null,
+    "status": "rejected",
+    "created_at": "2026-10-01T06:10:15.997Z",
+    "updated_at": "2026-10-01T06:10:49.769Z"
+  }
+},
+{
+  "model": "offers.offer",
+  "pk": 10,
+  "fields": {
+    "load": 11,
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "truck": 3,
+    "offered_price": "40000.00",
+    "owner_message": null,
+    "status": "pending",
+    "created_at": "2026-10-01T06:11:11.336Z",
+    "updated_at": "2026-10-01T06:11:11.336Z"
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 1,
+  "fields": {
+    "customer": [
+      "customer@test.com"
+    ],
+    "owner": [
+      "owner@test.com"
+    ],
+    "load": 3,
+    "offer": 1,
+    "truck": 1,
+    "final_price": "17500.00",
+    "status": "confirmed",
+    "confirmed_at": "2026-09-24T11:06:37.704Z"
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 2,
+  "fields": {
+    "customer": [
+      "customer@test.com"
+    ],
+    "owner": [
+      "owner@test.com"
+    ],
+    "load": 4,
+    "offer": 2,
+    "truck": 1,
+    "final_price": "18000.00",
+    "status": "confirmed",
+    "confirmed_at": "2026-09-26T19:14:52.315Z"
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 3,
+  "fields": {
+    "customer": [
+      "customer@test.com"
+    ],
+    "owner": [
+      "owner@test.com"
+    ],
+    "load": 5,
+    "offer": 3,
+    "truck": 2,
+    "final_price": "20000.00",
+    "status": "confirmed",
+    "confirmed_at": "2026-09-28T06:52:21.518Z"
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 4,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "load": 6,
+    "offer": 4,
+    "truck": 3,
+    "final_price": "25000.00",
+    "status": "confirmed",
+    "confirmed_at": "2026-09-30T08:53:14.566Z"
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 5,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "load": 8,
+    "offer": 5,
+    "truck": 3,
+    "final_price": "22000.00",
+    "status": "completed",
+    "confirmed_at": "2026-09-30T19:23:17.705Z"
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 6,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "load": 9,
+    "offer": 6,
+    "truck": 3,
+    "final_price": "7000.00",
+    "status": "completed",
+    "confirmed_at": "2026-09-30T19:39:53.136Z"
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 7,
+  "fields": {
+    "customer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "owner": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "load": 10,
+    "offer": 7,
+    "truck": 3,
+    "final_price": "40000.00",
+    "status": "completed",
+    "confirmed_at": "2026-10-01T05:50:33.960Z"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 1,
+  "fields": {
+    "booking": 1,
+    "load": 3,
+    "truck": 1,
+    "driver": 1,
+    "trip_id": "TRP-2026-000001",
+    "start_location": "Hyderabad",
+    "pickup_location": "Hyderabad",
+    "destination": "kadapa",
+    "current_location": "Hyderabad",
+    "current_status": "journey_started",
+    "started_at": "2026-09-25T05:23:25.632Z",
+    "completed_at": null,
+    "created_at": "2026-09-24T11:06:37.704Z",
+    "updated_at": "2026-09-25T05:23:25.632Z"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 2,
+  "fields": {
+    "booking": 2,
+    "load": 4,
+    "truck": 1,
+    "driver": 2,
+    "trip_id": "TRP-2026-000002",
+    "start_location": "Hyderabad",
+    "pickup_location": "Hyderabad",
+    "destination": "Bangalore",
+    "current_location": "Bangalore",
+    "current_status": "delivered",
+    "started_at": "2026-09-28T07:35:17.594Z",
+    "completed_at": null,
+    "created_at": "2026-09-26T19:14:52.318Z",
+    "updated_at": "2026-09-28T12:09:23.184Z"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 3,
+  "fields": {
+    "booking": 3,
+    "load": 5,
+    "truck": 2,
+    "driver": null,
+    "trip_id": "TRP-2026-000003",
+    "start_location": "Hyderabad",
+    "pickup_location": "Hyderabad",
+    "destination": "Bangalore",
+    "current_location": "Hyderabad",
+    "current_status": "trip_confirmed",
+    "started_at": null,
+    "completed_at": null,
+    "created_at": "2026-09-28T06:52:21.529Z",
+    "updated_at": "2026-09-28T06:52:21.529Z"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 4,
+  "fields": {
+    "booking": 4,
+    "load": 6,
+    "truck": 3,
+    "driver": 3,
+    "trip_id": "TRP-2026-000004",
+    "start_location": "kadapa",
+    "pickup_location": "kadapa",
+    "destination": "hyderbad",
+    "current_location": "hyderabad",
+    "current_status": "trip_completed",
+    "started_at": "2026-09-30T09:44:57.776Z",
+    "completed_at": "2026-09-30T10:39:26.334Z",
+    "created_at": "2026-09-30T08:53:14.574Z",
+    "updated_at": "2026-09-30T10:40:12.490Z"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 5,
+  "fields": {
+    "booking": 5,
+    "load": 8,
+    "truck": 3,
+    "driver": 3,
+    "trip_id": "TRP-2026-000005",
+    "start_location": "hyderabad",
+    "pickup_location": "hyderabad",
+    "destination": "proddutur",
+    "current_location": "proddutur",
+    "current_status": "trip_completed",
+    "started_at": "2026-09-30T19:24:30.880Z",
+    "completed_at": "2026-09-30T19:36:00.253Z",
+    "created_at": "2026-09-30T19:23:17.707Z",
+    "updated_at": "2026-09-30T19:36:00.253Z"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 6,
+  "fields": {
+    "booking": 6,
+    "load": 9,
+    "truck": 3,
+    "driver": 3,
+    "trip_id": "TRP-2026-000006",
+    "start_location": "kadapa",
+    "pickup_location": "kadapa",
+    "destination": "proddutur",
+    "current_location": "proddutur",
+    "current_status": "trip_completed",
+    "started_at": "2026-09-30T19:40:05.634Z",
+    "completed_at": "2026-09-30T19:42:00.434Z",
+    "created_at": "2026-09-30T19:39:53.145Z",
+    "updated_at": "2026-09-30T19:42:00.434Z"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 7,
+  "fields": {
+    "booking": 7,
+    "load": 10,
+    "truck": 3,
+    "driver": 3,
+    "trip_id": "TRP-2026-000007",
+    "start_location": "kolkata",
+    "pickup_location": "kolkata",
+    "destination": "hyderbad",
+    "current_location": "hyderbad",
+    "current_status": "trip_completed",
+    "started_at": "2026-10-01T05:50:56.214Z",
+    "completed_at": "2026-10-01T05:51:51.915Z",
+    "created_at": "2026-10-01T05:50:33.965Z",
+    "updated_at": "2026-10-01T05:51:51.915Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 1,
+  "fields": {
+    "trip": 1,
+    "status": "driver_reached_pickup",
+    "location": "Hyderabad",
+    "note": "Driver reached the pickup location.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-25T05:22:00.418Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 2,
+  "fields": {
+    "trip": 1,
+    "status": "driver_reached_pickup",
+    "location": "Hyderabad",
+    "note": "Driver reached the pickup location.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-25T05:22:31.146Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 3,
+  "fields": {
+    "trip": 1,
+    "status": "journey_started",
+    "location": "Hyderabad",
+    "note": "Truck started the journey.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-25T05:23:25.622Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 4,
+  "fields": {
+    "trip": 1,
+    "status": "driver_reached_pickup",
+    "location": "Hyderabad",
+    "note": "Driver reached the pickup location.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-25T06:01:56.452Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 5,
+  "fields": {
+    "trip": 1,
+    "status": "driver_reached_pickup",
+    "location": "Hyderabad2",
+    "note": "Driver reached the pickup location.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-25T06:14:19.900Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 6,
+  "fields": {
+    "trip": 2,
+    "status": "driver_reached_pickup",
+    "location": "Hyderabad",
+    "note": "Driver reached the pickup location.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-28T07:25:12.820Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 7,
+  "fields": {
+    "trip": 2,
+    "status": "driver_assigned",
+    "location": "Hyderabad",
+    "note": "Driver assigned and ready to start.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-28T07:34:55.207Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 8,
+  "fields": {
+    "trip": 2,
+    "status": "delivered",
+    "location": "Kadapa",
+    "note": "Delivery completed successfully.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-28T10:00:06.572Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 9,
+  "fields": {
+    "trip": 2,
+    "status": "delivered",
+    "location": "Bangalore",
+    "note": "Delivery completed successfully.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-28T11:17:58.982Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 10,
+  "fields": {
+    "trip": 2,
+    "status": "in_transit",
+    "location": "Kurnool",
+    "note": "Truck is in transit.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-28T11:25:14.797Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 11,
+  "fields": {
+    "trip": 2,
+    "status": "delivered",
+    "location": "Bangalore",
+    "note": "Delivery completed successfully.",
+    "photo": "",
+    "updated_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-28T12:09:23.183Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 12,
+  "fields": {
+    "trip": 4,
+    "status": "journey_started",
+    "location": "kadapa",
+    "note": "",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T09:45:06.122Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 13,
+  "fields": {
+    "trip": 4,
+    "status": "in_transit",
+    "location": "kadapa",
+    "note": "",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T10:03:08.284Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 14,
+  "fields": {
+    "trip": 4,
+    "status": "trip_completed",
+    "location": "hyderabad",
+    "note": "",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T10:39:26.322Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 15,
+  "fields": {
+    "trip": 4,
+    "status": "trip_completed",
+    "location": "hyderabad",
+    "note": "",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T10:40:12.480Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 16,
+  "fields": {
+    "trip": 5,
+    "status": "delivered",
+    "location": "proddutur",
+    "note": "Delivered at destination. Unload Report: [Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000005-6234] Cargo successfullserbyy unloaded at destination dock in intact condition. Delivery receipt and consignee sign-off verified.",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:24:51.987Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 17,
+  "fields": {
+    "trip": 5,
+    "status": "delivered",
+    "location": "proddutur",
+    "note": "Delivered at destination. Unload Report: [Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000005-6456] Cargo successfully unloaded at destination dock in intact condition. Delivery receipt and consignee sign-off verified.",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:25:23.962Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 18,
+  "fields": {
+    "trip": 5,
+    "status": "delivered",
+    "location": "proddutur",
+    "note": "Delivered at destination. Unload Report: [Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000005-4101] cargo loaded at pickpoint",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:27:38.344Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 19,
+  "fields": {
+    "trip": 5,
+    "status": "trip_completed",
+    "location": "proddutur",
+    "note": "Confirmed",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:36:00.262Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 20,
+  "fields": {
+    "trip": 6,
+    "status": "journey_started",
+    "location": "kadapa",
+    "note": "",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:40:14.289Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 21,
+  "fields": {
+    "trip": 6,
+    "status": "in_transit",
+    "location": "kadapa",
+    "note": "",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:41:02.603Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 22,
+  "fields": {
+    "trip": 6,
+    "status": "near_destination",
+    "location": "kadapa",
+    "note": "",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:41:20.234Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 23,
+  "fields": {
+    "trip": 6,
+    "status": "arrived",
+    "location": "kadapa",
+    "note": "",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:41:33.235Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 24,
+  "fields": {
+    "trip": 6,
+    "status": "delivered",
+    "location": "proddutur",
+    "note": "Delivered at destination. Unload Report: [Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000006-9186] Cargo successfully unloaded at destination dock in intact condition. Delivery receipt and consignee sign-off verified.",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:41:50.387Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 25,
+  "fields": {
+    "trip": 6,
+    "status": "trip_completed",
+    "location": "proddutur",
+    "note": "Destination unload inspected and confirmed by Customer. Trip marked Completed.",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:42:00.448Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 26,
+  "fields": {
+    "trip": 7,
+    "status": "in_transit",
+    "location": "kolkata",
+    "note": "",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-10-01T05:51:08.102Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 27,
+  "fields": {
+    "trip": 7,
+    "status": "delivered",
+    "location": "hyderbad",
+    "note": "Delivered at destination. Unload Report: [Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000007-1545] Cargo successfully unloaded at destination dock in intact condition. Delivery receipt and consignee sign-off verified.",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-10-01T05:51:40.842Z"
+  }
+},
+{
+  "model": "trips.triplocationupdate",
+  "pk": 28,
+  "fields": {
+    "trip": 7,
+    "status": "trip_completed",
+    "location": "hyderbad",
+    "note": "Destination unload inspected and confirmed by Customer. Trip marked Completed.",
+    "photo": "",
+    "updated_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "created_at": "2026-10-01T05:51:51.940Z"
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 1,
+  "fields": {
+    "trip": 1,
+    "agreed_amount": "17000.00",
+    "total_paid": "17000.00",
+    "remaining_amount": "0.00",
+    "payment_status": "fully_paid",
+    "due_date": null,
+    "created_at": "2026-09-25T06:26:44.368Z",
+    "updated_at": "2026-10-01T06:12:05.272Z"
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 2,
+  "fields": {
+    "trip": 2,
+    "agreed_amount": "30000.00",
+    "total_paid": "20000.00",
+    "remaining_amount": "10000.00",
+    "payment_status": "partially_paid",
+    "due_date": "2026-09-27",
+    "created_at": "2026-09-28T11:33:33.580Z",
+    "updated_at": "2026-10-01T06:12:05.313Z"
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 3,
+  "fields": {
+    "trip": 3,
+    "agreed_amount": "20000.00",
+    "total_paid": "0.00",
+    "remaining_amount": "20000.00",
+    "payment_status": "unpaid",
+    "due_date": null,
+    "created_at": "2026-09-30T19:13:30.708Z",
+    "updated_at": "2026-10-01T06:12:05.344Z"
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 4,
+  "fields": {
+    "trip": 4,
+    "agreed_amount": "25000.00",
+    "total_paid": "0.00",
+    "remaining_amount": "25000.00",
+    "payment_status": "unpaid",
+    "due_date": null,
+    "created_at": "2026-09-30T19:13:30.721Z",
+    "updated_at": "2026-10-01T06:12:05.377Z"
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 5,
+  "fields": {
+    "trip": 5,
+    "agreed_amount": "22000.00",
+    "total_paid": "0.00",
+    "remaining_amount": "22000.00",
+    "payment_status": "unpaid",
+    "due_date": null,
+    "created_at": "2026-09-30T19:23:21.287Z",
+    "updated_at": "2026-10-01T06:12:06.062Z"
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 6,
+  "fields": {
+    "trip": 6,
+    "agreed_amount": "6988.00",
+    "total_paid": "6988.00",
+    "remaining_amount": "0.00",
+    "payment_status": "fully_paid",
+    "due_date": null,
+    "created_at": "2026-09-30T19:42:00.442Z",
+    "updated_at": "2026-10-01T06:12:06.106Z"
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 7,
+  "fields": {
+    "trip": 7,
+    "agreed_amount": "37000.00",
+    "total_paid": "20000.00",
+    "remaining_amount": "17000.00",
+    "payment_status": "partially_paid",
+    "due_date": null,
+    "created_at": "2026-10-01T05:51:51.930Z",
+    "updated_at": "2026-10-01T06:12:06.146Z"
+  }
+},
+{
+  "model": "payments.paymenttransaction",
+  "pk": 1,
+  "fields": {
+    "payment": 1,
+    "amount": "5000.00",
+    "payment_type": "advance",
+    "payment_reference": "ADV-TRP-000001",
+    "payment_date": "2026-09-25T06:27:10.820Z",
+    "status": "completed",
+    "proof": "",
+    "created_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-25T06:27:10.820Z"
+  }
+},
+{
+  "model": "payments.paymenttransaction",
+  "pk": 2,
+  "fields": {
+    "payment": 1,
+    "amount": "5000.00",
+    "payment_type": "trip_payment",
+    "payment_reference": "TXN-002",
+    "payment_date": "2026-09-28T09:15:34.375Z",
+    "status": "completed",
+    "proof": "",
+    "created_by": [
+      "customer@test.com"
+    ],
+    "created_at": "2026-09-28T09:15:34.375Z"
+  }
+},
+{
+  "model": "payments.paymenttransaction",
+  "pk": 3,
+  "fields": {
+    "payment": 2,
+    "amount": "20000.00",
+    "payment_type": "advance",
+    "payment_reference": "JHGFGHVJBKN",
+    "payment_date": "2026-09-30T09:33:53.292Z",
+    "status": "completed",
+    "proof": "",
+    "created_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "created_at": "2026-09-30T09:33:53.292Z"
+  }
+},
+{
+  "model": "payments.paymenttransaction",
+  "pk": 4,
+  "fields": {
+    "payment": 1,
+    "amount": "7500.00",
+    "payment_type": "final_payment",
+    "payment_reference": "EFRFSDCSDC",
+    "payment_date": "2026-09-30T10:00:59.222Z",
+    "status": "completed",
+    "proof": "",
+    "created_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "created_at": "2026-09-30T10:00:59.222Z"
+  }
+},
+{
+  "model": "payments.paymenttransaction",
+  "pk": 8,
+  "fields": {
+    "payment": 6,
+    "amount": "2000.00",
+    "payment_type": "advance",
+    "payment_reference": "QWSEDRFTGYHUJK",
+    "payment_date": "2026-09-30T19:47:32.000Z",
+    "status": "completed",
+    "proof": "",
+    "created_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:47:32.000Z"
+  }
+},
+{
+  "model": "payments.paymenttransaction",
+  "pk": 9,
+  "fields": {
+    "payment": 6,
+    "amount": "4988.00",
+    "payment_type": "final_payment",
+    "payment_reference": "jhhgiuyfdf",
+    "payment_date": "2026-10-01T05:09:58.348Z",
+    "status": "completed",
+    "proof": "",
+    "created_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "created_at": "2026-10-01T05:09:58.348Z"
+  }
+},
+{
+  "model": "payments.paymenttransaction",
+  "pk": 10,
+  "fields": {
+    "payment": 7,
+    "amount": "20000.00",
+    "payment_type": "advance",
+    "payment_reference": "EFRFSDCSDC",
+    "payment_date": "2026-10-01T05:52:24.950Z",
+    "status": "completed",
+    "proof": "",
+    "created_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "created_at": "2026-10-01T05:52:24.950Z"
+  }
+},
+{
+  "model": "expenses.expense",
+  "pk": 1,
+  "fields": {
+    "trip": 1,
+    "expense_type": "fuel",
+    "amount": "3000.00",
+    "description": "Fuel expense during Hyderabad to Pune trip",
+    "expense_date": "2026-09-25",
+    "created_at": "2026-09-25T08:55:51.882Z"
+  }
+},
+{
+  "model": "expenses.expense",
+  "pk": 2,
+  "fields": {
+    "trip": 1,
+    "expense_type": "food",
+    "amount": "300.00",
+    "description": "day1 food expences",
+    "expense_date": "2026-09-25",
+    "created_at": "2026-09-25T08:57:38.265Z"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 1,
+  "fields": {
+    "report_id": "RPT-2026-000001",
+    "trip": 1,
+    "load": 1,
+    "reported_by": [
+      "customer@test.com"
+    ],
+    "reported_against": [
+      "customer1@test.com"
+    ],
+    "report_type": "cargo_damaged",
+    "description": "Some cargo packages were damaged during transportation.",
+    "expected_information": "Cargo should arrive in the same condition as loaded.",
+    "actual_information": "Three packages were damaged when the cargo arrived.",
+    "status": "open",
+    "created_at": "2026-09-25T10:11:04.868Z",
+    "updated_at": "2026-09-25T10:11:04.868Z"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 2,
+  "fields": {
+    "report_id": "RPT-2026-000002",
+    "trip": 2,
+    "load": 4,
+    "reported_by": [
+      "customer@test.com"
+    ],
+    "reported_against": [
+      "owner@test.com"
+    ],
+    "report_type": "delivery_delay",
+    "description": "Delivery delay has been reviewed and additional information is required.",
+    "expected_information": "Delivery should have been completed on time.",
+    "actual_information": "Delivery was delayed.",
+    "status": "under_review",
+    "created_at": "2026-09-28T12:31:37.202Z",
+    "updated_at": "2026-09-30T10:20:28.108Z"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 3,
+  "fields": {
+    "report_id": "RPT-2026-000003",
+    "trip": 4,
+    "load": 6,
+    "reported_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "reported_against": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "report_type": "cargo_damaged",
+    "description": "ascsdcsdc",
+    "expected_information": null,
+    "actual_information": null,
+    "status": "closed",
+    "created_at": "2026-09-30T10:56:08.340Z",
+    "updated_at": "2026-09-30T18:40:57.660Z"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 4,
+  "fields": {
+    "report_id": "RPT-2026-000004",
+    "trip": 4,
+    "load": 6,
+    "reported_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "reported_against": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "report_type": "cargo_missing",
+    "description": "stydhgzhtjh",
+    "expected_information": null,
+    "actual_information": null,
+    "status": "open",
+    "created_at": "2026-09-30T18:22:20.896Z",
+    "updated_at": "2026-09-30T18:22:20.896Z"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 5,
+  "fields": {
+    "report_id": "RPT-2026-000005",
+    "trip": 6,
+    "load": 9,
+    "reported_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "reported_against": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "report_type": "wrong_weight_quantity",
+    "description": "strt",
+    "expected_information": null,
+    "actual_information": null,
+    "status": "resolved",
+    "created_at": "2026-09-30T19:49:28.296Z",
+    "updated_at": "2026-09-30T19:58:55.203Z"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 6,
+  "fields": {
+    "report_id": "RPT-2026-000006",
+    "trip": 7,
+    "load": 10,
+    "reported_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "reported_against": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "report_type": "cargo_missing",
+    "description": "aef",
+    "expected_information": null,
+    "actual_information": null,
+    "status": "resolved",
+    "created_at": "2026-10-01T05:53:00.353Z",
+    "updated_at": "2026-10-01T05:56:58.511Z"
+  }
+},
+{
+  "model": "disputes.dispute",
+  "pk": 1,
+  "fields": {
+    "dispute_id": "DSP-2026-000001",
+    "report": 1,
+    "trip": 1,
+    "created_by": [
+      "customer@test.com"
+    ],
+    "reason": "",
+    "evidence": "",
+    "respondent_response": "",
+    "respondent_evidence": "",
+    "status": "closed",
+    "admin_notes": "",
+    "resolution": "i will decrease the amount...",
+    "created_at": "2026-09-25T10:40:41.555Z",
+    "updated_at": "2026-09-30T11:24:51.178Z"
+  }
+},
+{
+  "model": "disputes.dispute",
+  "pk": 2,
+  "fields": {
+    "dispute_id": "DSP-2026-000002",
+    "report": 3,
+    "trip": 4,
+    "created_by": [
+      "ragava12@gmail.com"
+    ],
+    "reason": "Administrative arbitration opened for cargo damaged: ascsdcsdc",
+    "evidence": "",
+    "respondent_response": "",
+    "respondent_evidence": "",
+    "status": "resolved",
+    "admin_notes": "Arbitrated by platform administration. Final dispute hearing completed.",
+    "resolution": "Arbitration resolved with Settlement #SET-2026-000004 (Damage Compensation: Final Amount ₹0).",
+    "created_at": "2026-09-30T11:13:03.175Z",
+    "updated_at": "2026-09-30T11:44:05.802Z"
+  }
+},
+{
+  "model": "disputes.dispute",
+  "pk": 3,
+  "fields": {
+    "dispute_id": "DSP-2026-000003",
+    "report": 4,
+    "trip": 4,
+    "created_by": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "reason": "rdfghjk",
+    "evidence": "",
+    "respondent_response": "",
+    "respondent_evidence": "",
+    "status": "open",
+    "admin_notes": null,
+    "resolution": null,
+    "created_at": "2026-09-30T18:24:29.883Z",
+    "updated_at": "2026-09-30T18:24:29.883Z"
+  }
+},
+{
+  "model": "disputes.dispute",
+  "pk": 4,
+  "fields": {
+    "dispute_id": "DSP-2026-000004",
+    "report": 5,
+    "trip": 6,
+    "created_by": [
+      "ragava12@gmail.com"
+    ],
+    "reason": "Administrative arbitration opened for wrong weight quantity: strt",
+    "evidence": "",
+    "respondent_response": "200 weight was missinng",
+    "respondent_evidence": "",
+    "status": "resolved",
+    "admin_notes": "Arbitrated by platform administration. Final dispute hearing completed.",
+    "resolution": "Arbitration resolved with Settlement #SET-2026-000006 (Payment Adjustment: Final Amount ₹8000).",
+    "created_at": "2026-09-30T19:52:34.104Z",
+    "updated_at": "2026-09-30T19:58:55.203Z"
+  }
+},
+{
+  "model": "disputes.dispute",
+  "pk": 5,
+  "fields": {
+    "dispute_id": "DSP-2026-000005",
+    "report": 6,
+    "trip": 7,
+    "created_by": [
+      "ragava12@gmail.com"
+    ],
+    "reason": "Administrative arbitration opened for cargo missing: aef",
+    "evidence": "",
+    "respondent_response": "cdvdfsf asd",
+    "respondent_evidence": "",
+    "status": "resolved",
+    "admin_notes": "Arbitrated by platform administration. Final dispute hearing completed.",
+    "resolution": "Arbitration resolved with Settlement #SET-2026-000007 (Payment Adjustment: Final Amount ₹37000).",
+    "created_at": "2026-10-01T05:55:35.175Z",
+    "updated_at": "2026-10-01T05:56:58.508Z"
+  }
+},
+{
+  "model": "settlements.settlement",
+  "pk": 1,
+  "fields": {
+    "settlement_id": "SET-2026-000001",
+    "trip": 1,
+    "report": 1,
+    "dispute": 1,
+    "original_amount": "20000.00",
+    "amount_already_paid": "15000.00",
+    "adjustment_amount": "-3000.00",
+    "final_settlement_amount": "17000.00",
+    "payer": [
+      "customer@test.com"
+    ],
+    "receiver": [
+      "customer1@test.com"
+    ],
+    "settlement_type": "fare_reduction",
+    "reason": "Settlement adjustment after dispute review",
+    "evidence": "Supporting evidence reviewed by admin",
+    "admin_notes": "Settlement proposal sent for review",
+    "status": "settlement_proposed",
+    "created_date": "2026-09-25T10:51:57.519Z",
+    "resolved_date": null,
+    "resolved_by": null
+  }
+},
+{
+  "model": "settlements.settlement",
+  "pk": 2,
+  "fields": {
+    "settlement_id": "SET-2026-000002",
+    "trip": 2,
+    "report": null,
+    "dispute": null,
+    "original_amount": "20000.00",
+    "amount_already_paid": "0.00",
+    "adjustment_amount": "10000.00",
+    "final_settlement_amount": "30000.00",
+    "payer": null,
+    "receiver": null,
+    "settlement_type": "payment_adjustment",
+    "reason": "Final settlement adjustment after trip completion.",
+    "evidence": "",
+    "admin_notes": "",
+    "status": "settled",
+    "created_date": "2026-09-28T12:47:18.072Z",
+    "resolved_date": "2026-09-30T11:22:56.552Z",
+    "resolved_by": [
+      "ragava12@gmail.com"
+    ]
+  }
+},
+{
+  "model": "settlements.settlement",
+  "pk": 3,
+  "fields": {
+    "settlement_id": "SET-2026-000003",
+    "trip": 4,
+    "report": 3,
+    "dispute": 2,
+    "original_amount": "19999.99",
+    "amount_already_paid": "1223.00",
+    "adjustment_amount": "-4999.00",
+    "final_settlement_amount": "15000.99",
+    "payer": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "receiver": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "settlement_type": "damage_compensation",
+    "reason": "Damage compensation awarded to shipper for verified cargo damage in dispute #DSP-2026-000002.",
+    "evidence": "",
+    "admin_notes": "Arbitrated by platform administration. Final dispute hearing completed.",
+    "status": "settled",
+    "created_date": "2026-09-30T11:43:51.719Z",
+    "resolved_date": null,
+    "resolved_by": [
+      "ragava12@gmail.com"
+    ]
+  }
+},
+{
+  "model": "settlements.settlement",
+  "pk": 4,
+  "fields": {
+    "settlement_id": "SET-2026-000004",
+    "trip": 4,
+    "report": 3,
+    "dispute": 2,
+    "original_amount": "0.00",
+    "amount_already_paid": "0.00",
+    "adjustment_amount": "0.00",
+    "final_settlement_amount": "0.00",
+    "payer": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "receiver": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "settlement_type": "damage_compensation",
+    "reason": "Damage compensation awarded to shipper for verified cargo damage in dispute #DSP-2026-000002.",
+    "evidence": "",
+    "admin_notes": "Arbitrated by platform administration. Final dispute hearing completed.",
+    "status": "settled",
+    "created_date": "2026-09-30T11:44:05.796Z",
+    "resolved_date": "2026-09-30T18:26:55.885Z",
+    "resolved_by": [
+      "ragava12@gmail.com"
+    ]
+  }
+},
+{
+  "model": "settlements.settlement",
+  "pk": 5,
+  "fields": {
+    "settlement_id": "SET-2026-000005",
+    "trip": 6,
+    "report": 5,
+    "dispute": 4,
+    "original_amount": "7000.00",
+    "amount_already_paid": "19999.74",
+    "adjustment_amount": "1000.00",
+    "final_settlement_amount": "8000.00",
+    "payer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "receiver": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "settlement_type": "payment_adjustment",
+    "reason": "Financial reconciliation determined for dispute #DSP-2026-000004.",
+    "evidence": "",
+    "admin_notes": "Arbitrated by platform administration. Final dispute hearing completed.",
+    "status": "settled",
+    "created_date": "2026-09-30T19:57:49.456Z",
+    "resolved_date": null,
+    "resolved_by": [
+      "ragava12@gmail.com"
+    ]
+  }
+},
+{
+  "model": "settlements.settlement",
+  "pk": 6,
+  "fields": {
+    "settlement_id": "SET-2026-000006",
+    "trip": 6,
+    "report": 5,
+    "dispute": 4,
+    "original_amount": "7000.00",
+    "amount_already_paid": "0.00",
+    "adjustment_amount": "-12.00",
+    "final_settlement_amount": "6988.00",
+    "payer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "receiver": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "settlement_type": "payment_adjustment",
+    "reason": "Financial reconciliation determined for dispute #DSP-2026-000004.",
+    "evidence": "",
+    "admin_notes": "Arbitrated by platform administration. Final dispute hearing completed.",
+    "status": "settled",
+    "created_date": "2026-09-30T19:58:55.203Z",
+    "resolved_date": "2026-09-30T19:59:28.039Z",
+    "resolved_by": [
+      "ragava12@gmail.com"
+    ]
+  }
+},
+{
+  "model": "settlements.settlement",
+  "pk": 7,
+  "fields": {
+    "settlement_id": "SET-2026-000007",
+    "trip": 7,
+    "report": 6,
+    "dispute": 5,
+    "original_amount": "40000.00",
+    "amount_already_paid": "0.00",
+    "adjustment_amount": "-3000.00",
+    "final_settlement_amount": "37000.00",
+    "payer": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "receiver": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "settlement_type": "payment_adjustment",
+    "reason": "Financial reconciliation determined for dispute #DSP-2026-000005.",
+    "evidence": "",
+    "admin_notes": "Arbitrated by platform administration. Final dispute hearing completed.",
+    "status": "settled",
+    "created_date": "2026-10-01T05:56:58.480Z",
+    "resolved_date": null,
+    "resolved_by": [
+      "ragava12@gmail.com"
+    ]
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 1,
+  "fields": {
+    "notification_id": "NTF-2026-000001",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "payment_reminder",
+    "trip": 1,
+    "title": "Payment Reminder",
+    "message": "Your remaining trip payment is due.",
+    "priority": "important",
+    "is_read": true,
+    "created_at": "2026-09-25T11:48:13.823Z",
+    "read_at": "2026-09-25T12:08:48.653Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 2,
+  "fields": {
+    "notification_id": "NTF-2026-000002",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "payment_reminder",
+    "trip": 1,
+    "title": "Payment Reminder",
+    "message": "Your remaining trip payment is due.",
+    "priority": "important",
+    "is_read": true,
+    "created_at": "2026-09-25T11:49:35.493Z",
+    "read_at": "2026-09-25T12:08:25.015Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 3,
+  "fields": {
+    "notification_id": "NTF-2026-000003",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "New Offer Received",
+    "message": "You received a new offer of 18000.00 for your load from Test Truck Owner.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-26T19:06:59.951Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 4,
+  "fields": {
+    "notification_id": "NTF-2026-000004",
+    "reference_key": null,
+    "recipient": [
+      "owner@test.com"
+    ],
+    "notification_type": "offer_accepted",
+    "trip": null,
+    "title": "Offer Accepted",
+    "message": "Your offer of 18000.00 for the load from Hyderabad to Bangalore has been accepted.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-26T19:14:52.318Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 5,
+  "fields": {
+    "notification_id": "NTF-2026-000005",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "New Offer Received",
+    "message": "You received a new offer of 20000.00 for your load from Test Truck Owner.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T06:48:44.645Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 6,
+  "fields": {
+    "notification_id": "NTF-2026-000006",
+    "reference_key": null,
+    "recipient": [
+      "owner@test.com"
+    ],
+    "notification_type": "offer_accepted",
+    "trip": null,
+    "title": "Offer Accepted",
+    "message": "Your offer of 20000.00 for the load from Hyderabad to Bangalore has been accepted.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T06:52:21.534Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 7,
+  "fields": {
+    "notification_id": "NTF-2026-000007",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "driver_assigned",
+    "trip": null,
+    "title": "Driver Assigned",
+    "message": "Driver raghavendra has been assigned to your trip TRP-2026-000002. Driver mobile number: 1234567890.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T06:55:04.368Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 8,
+  "fields": {
+    "notification_id": "NTF-2026-000008",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "trip_started",
+    "trip": null,
+    "title": "Trip Started",
+    "message": "Your trip TRP-2026-000002 has started. The truck is travelling from Hyderabad to Bangalore.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T07:07:33.078Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 9,
+  "fields": {
+    "notification_id": "NTF-2026-000009",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": null,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000002 status has been updated to Driver Reached Pickup. Current location: Hyderabad.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T07:25:12.858Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 10,
+  "fields": {
+    "notification_id": "NTF-2026-000010",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": null,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000002 status has been updated to Driver Assigned. Current location: Hyderabad.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T07:34:55.227Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 11,
+  "fields": {
+    "notification_id": "NTF-2026-000011",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "trip_started",
+    "trip": null,
+    "title": "Trip Started",
+    "message": "Your trip TRP-2026-000002 has started. The truck is travelling from Hyderabad to Bangalore.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T07:35:17.602Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 12,
+  "fields": {
+    "notification_id": "NTF-2026-000012",
+    "reference_key": null,
+    "recipient": [
+      "owner@test.com"
+    ],
+    "notification_type": "payment_received",
+    "trip": null,
+    "title": "Payment Received",
+    "message": "Payment of 5000 has been received for trip TRP-2026-000001. Payment reference: TXN-002.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T09:15:34.392Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 13,
+  "fields": {
+    "notification_id": "NTF-2026-000013",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": null,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000002 status has been updated to Delivered. Current location: Kadapa.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T10:00:06.584Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 14,
+  "fields": {
+    "notification_id": "NTF-2026-000014",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": 2,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000002 status has been updated to In Transit. Current location: Kurnool.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T11:25:14.811Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 15,
+  "fields": {
+    "notification_id": "NTF-2026-000015",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "payment_due",
+    "trip": null,
+    "title": "Payment Due",
+    "message": "Payment of 20000 is due for trip TRP-2026-000002. Remaining amount: 20000.00.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T11:33:33.608Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 16,
+  "fields": {
+    "notification_id": "NTF-2026-000016",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "payment_overdue",
+    "trip": null,
+    "title": "Payment Overdue",
+    "message": "Payment of 20000.00 is overdue for trip TRP-2026-000002. Payment due date was 2026-09-27.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T11:59:47.022Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 17,
+  "fields": {
+    "notification_id": "NTF-2026-000017",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "delivery_completed",
+    "trip": 2,
+    "title": "Delivery Completed",
+    "message": "Delivery for your trip TRP-2026-000002 has been completed successfully. Current location: Bangalore.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T12:09:23.184Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 18,
+  "fields": {
+    "notification_id": "NTF-2026-000018",
+    "reference_key": null,
+    "recipient": [
+      "owner@test.com"
+    ],
+    "notification_type": "report_created",
+    "trip": null,
+    "title": "New Report Created",
+    "message": "A report has been created against you for trip TRP-2026-000002.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T12:31:37.244Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 19,
+  "fields": {
+    "notification_id": "NTF-2026-000019",
+    "reference_key": null,
+    "recipient": [
+      "owner@test.com"
+    ],
+    "notification_type": "report_updated",
+    "trip": null,
+    "title": "Report Updated",
+    "message": "Report RPT-2026-000002 has been updated. Trip: TRP-2026-000002.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T12:40:23.561Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 20,
+  "fields": {
+    "notification_id": "NTF-2026-000020",
+    "reference_key": null,
+    "recipient": [
+      "owner@test.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": null,
+    "title": "Settlement Completed",
+    "message": "Settlement for trip TRP-2026-000002 has been completed.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-28T12:47:18.106Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 21,
+  "fields": {
+    "notification_id": "NTF-2026-000021",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "payment_reminder",
+    "trip": null,
+    "title": "Payment Reminder",
+    "message": "This is a reminder that your payment for the trip is pending.",
+    "priority": "important",
+    "is_read": false,
+    "created_at": "2026-09-29T05:41:57.392Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 22,
+  "fields": {
+    "notification_id": "NTF-2026-000022",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "payment_overdue",
+    "trip": null,
+    "title": "Payment Overdue",
+    "message": "Your payment for trip TRP-2026-000002 is overdue. Please make the payment as soon as possible.",
+    "priority": "urgent",
+    "is_read": false,
+    "created_at": "2026-09-29T05:49:14.421Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 23,
+  "fields": {
+    "notification_id": "NTF-2026-000023",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "settlement_update",
+    "trip": null,
+    "title": "Settlement Update",
+    "message": "There is an update regarding your settlement for the trip.",
+    "priority": "important",
+    "is_read": false,
+    "created_at": "2026-09-29T05:51:38.131Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 24,
+  "fields": {
+    "notification_id": "NTF-2026-000024",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "settlement_update",
+    "trip": null,
+    "title": "Settlement Update",
+    "message": "There is an update regarding your settlement for the trip.",
+    "priority": "important",
+    "is_read": false,
+    "created_at": "2026-09-29T05:51:41.039Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 25,
+  "fields": {
+    "notification_id": "NTF-2026-000025",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "report_update",
+    "trip": null,
+    "title": "Report Update",
+    "message": "There is an update regarding your reported issue. Please check the report details for more information.",
+    "priority": "important",
+    "is_read": false,
+    "created_at": "2026-09-29T05:57:33.535Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 26,
+  "fields": {
+    "notification_id": "NTF-2026-000026",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "dispute_update",
+    "trip": null,
+    "title": "Dispute Update",
+    "message": "There is an update regarding your dispute. Please check the dispute details for more information.",
+    "priority": "important",
+    "is_read": false,
+    "created_at": "2026-09-29T06:01:20.391Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 27,
+  "fields": {
+    "notification_id": "NTF-2026-000027",
+    "reference_key": null,
+    "recipient": [
+      "owner@test.com"
+    ],
+    "notification_type": "document_verification",
+    "trip": null,
+    "title": "Document Verification Update",
+    "message": "Your truck or driver document has been reviewed. Please check your documents for the latest verification status.",
+    "priority": "important",
+    "is_read": false,
+    "created_at": "2026-09-29T06:06:03.365Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 28,
+  "fields": {
+    "notification_id": "NTF-2026-000028",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "trip_issue",
+    "trip": null,
+    "title": "Trip Issue",
+    "message": "An issue has been reported regarding your trip. Please check the trip details for more information.",
+    "priority": "urgent",
+    "is_read": false,
+    "created_at": "2026-09-29T06:16:49.999Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 29,
+  "fields": {
+    "notification_id": "NTF-2026-000029",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "trip_issue",
+    "trip": null,
+    "title": "Trip Issue",
+    "message": "An issue has been reported regarding your trip. Please check the trip details for more information.",
+    "priority": "urgent",
+    "is_read": false,
+    "created_at": "2026-09-29T06:17:46.269Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 30,
+  "fields": {
+    "notification_id": "NTF-2026-000030",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "trip_issue",
+    "trip": null,
+    "title": "Trip Issue",
+    "message": "An issue has been reported regarding your trip. Please check the trip details for more information.",
+    "priority": "urgent",
+    "is_read": false,
+    "created_at": "2026-09-29T06:17:57.199Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 31,
+  "fields": {
+    "notification_id": "NTF-2026-000031",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "cancellation",
+    "trip": null,
+    "title": "Trip Cancellation",
+    "message": "Your trip has been cancelled. Please check the trip details for more information.",
+    "priority": "urgent",
+    "is_read": false,
+    "created_at": "2026-09-29T06:23:04.264Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 32,
+  "fields": {
+    "notification_id": "NTF-2026-000032",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "important_announcement",
+    "trip": null,
+    "title": "Important Announcement",
+    "message": "Please review this important announcement from TruckConnect.",
+    "priority": "important",
+    "is_read": false,
+    "created_at": "2026-09-29T06:24:27.694Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 33,
+  "fields": {
+    "notification_id": "NTF-2026-000033",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "other",
+    "trip": null,
+    "title": "TruckConnect Notification",
+    "message": "This is a general notification from the TruckConnect administration team.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-29T06:27:48.671Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 34,
+  "fields": {
+    "notification_id": "NTF-2026-000034",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "New Offer Received",
+    "message": "You received a new offer of 30000.00 for your load from THUNGA RAGHVENDRA REDDY.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T08:29:11.516Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 35,
+  "fields": {
+    "notification_id": "NTF-2026-000035",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "Offer Price Revised",
+    "message": "Transporter THUNGA RAGHVENDRA REDDY has updated their offer to ₹25000.00 for your load from kadapa to hyderbad.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T08:49:58.757Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 36,
+  "fields": {
+    "notification_id": "NTF-2026-000036",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "offer_accepted",
+    "trip": null,
+    "title": "Offer Accepted",
+    "message": "Your offer of 25000.00 for the load from kadapa to hyderbad has been accepted.",
+    "priority": "normal",
+    "is_read": true,
+    "created_at": "2026-09-30T08:53:14.587Z",
+    "read_at": "2026-09-30T09:36:58.083Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 37,
+  "fields": {
+    "notification_id": "NTF-2026-000037",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "payment_received",
+    "trip": null,
+    "title": "Payment Received",
+    "message": "Payment of 20000 has been received for trip TRP-2026-000002. Payment reference: JHGFGHVJBKN.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T09:33:53.316Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 38,
+  "fields": {
+    "notification_id": "NTF-2026-000038",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "driver_assigned",
+    "trip": 4,
+    "title": "Driver Assigned",
+    "message": "Driver Thunga Raghavendra reddy has been assigned to your trip TRP-2026-000004. Driver mobile number: 06281923475.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T09:44:55.685Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 39,
+  "fields": {
+    "notification_id": "NTF-2026-000039",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_started",
+    "trip": 4,
+    "title": "Trip Started",
+    "message": "Your trip TRP-2026-000004 has started. The truck is travelling from kadapa to hyderbad.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T09:44:57.791Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 40,
+  "fields": {
+    "notification_id": "NTF-2026-000040",
+    "reference_key": null,
+    "recipient": [
+      "customer@test.com"
+    ],
+    "notification_type": "payment_received",
+    "trip": null,
+    "title": "Payment Received",
+    "message": "Payment of 7500 has been received for trip TRP-2026-000001. Payment reference: EFRFSDCSDC.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T10:00:59.244Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 41,
+  "fields": {
+    "notification_id": "NTF-2026-000041",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": 4,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000004 status has been updated to In Transit. Current location: kadapa.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T10:03:08.294Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 42,
+  "fields": {
+    "notification_id": "NTF-2026-000042",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": 4,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000004 status has been updated to Trip Completed. Current location: hyderabad.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T10:39:26.351Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 43,
+  "fields": {
+    "notification_id": "NTF-2026-000043",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "report_created",
+    "trip": null,
+    "title": "New Report Created",
+    "message": "A report has been created against you for trip TRP-2026-000004.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T10:56:08.371Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 44,
+  "fields": {
+    "notification_id": "NTF-2026-000044",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "dispute_created",
+    "trip": 4,
+    "title": "Report Escalated to Formal Dispute",
+    "message": "Your incident report RPT-2026-000003 has been escalated to formal arbitration dispute #DSP-2026-000002 by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T11:13:03.208Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 45,
+  "fields": {
+    "notification_id": "NTF-2026-000045",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "dispute_created",
+    "trip": 4,
+    "title": "Formal Dispute Opened",
+    "message": "Incident report RPT-2026-000003 has been escalated to formal arbitration dispute #DSP-2026-000002 by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T11:13:03.219Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 46,
+  "fields": {
+    "notification_id": "NTF-2026-000046",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_resolved",
+    "trip": 4,
+    "title": "Dispute #DSP-2026-000002 Hearing Decision",
+    "message": "Dispute status is now RESOLVED. Finding: ugyukh",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T11:42:29.015Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 47,
+  "fields": {
+    "notification_id": "NTF-2026-000047",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "dispute_resolved",
+    "trip": 4,
+    "title": "Dispute #DSP-2026-000002 Hearing Decision",
+    "message": "Dispute status is now RESOLVED. Finding: ugyukh",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T11:42:29.034Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 48,
+  "fields": {
+    "notification_id": "NTF-2026-000048",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "dispute_resolved",
+    "trip": 4,
+    "title": "Dispute #DSP-2026-000002 Hearing Decision",
+    "message": "Dispute status is now RESOLVED. Finding: ugyukh",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T11:42:29.053Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 49,
+  "fields": {
+    "notification_id": "NTF-2026-000049",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 4,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000003 was generated for Dispute #DSP-2026-000002 (Trip #TRP-2026-000004). Payout / Adjustment: ₹15000.990000000002.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T11:43:51.741Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 50,
+  "fields": {
+    "notification_id": "NTF-2026-000050",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 4,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000003 was generated for Dispute #DSP-2026-000002 (Trip #TRP-2026-000004). Payout / Adjustment: ₹15000.990000000002.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T11:43:51.747Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 51,
+  "fields": {
+    "notification_id": "NTF-2026-000051",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 4,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000004 was generated for Dispute #DSP-2026-000002 (Trip #TRP-2026-000004). Payout / Adjustment: ₹0.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T11:44:05.805Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 52,
+  "fields": {
+    "notification_id": "NTF-2026-000052",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 4,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000004 was generated for Dispute #DSP-2026-000002 (Trip #TRP-2026-000004). Payout / Adjustment: ₹0.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T11:44:05.810Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 53,
+  "fields": {
+    "notification_id": "NTF-2026-000053",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "report_created",
+    "trip": null,
+    "title": "New Report Created",
+    "message": "A report has been created against you for trip TRP-2026-000004.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T18:22:20.923Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 54,
+  "fields": {
+    "notification_id": "NTF-2026-000054",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "dispute_created",
+    "trip": 4,
+    "title": "Formal Dispute Case Filed",
+    "message": "Dispute #DSP-2026-000003 was opened for Trip #TRP-2026-000004. You can review and submit counter-evidence.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T18:24:29.904Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 55,
+  "fields": {
+    "notification_id": "NTF-2026-000055",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": null,
+    "title": "Settlement Finalized",
+    "message": "Settlement SET-2026-000004 for trip #TRP-2026-000004 has been marked as settled.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T18:26:55.911Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 56,
+  "fields": {
+    "notification_id": "NTF-2026-000056",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": null,
+    "title": "Settlement Finalized",
+    "message": "Settlement SET-2026-000004 for trip #TRP-2026-000004 has been marked as settled.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T18:26:55.934Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 57,
+  "fields": {
+    "notification_id": "NTF-2026-000057",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "report_status_updated",
+    "trip": 4,
+    "title": "Incident Report Update",
+    "message": "Your incident report RPT-2026-000003 has been marked as UNDER_REVIEW by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T18:40:42.908Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 58,
+  "fields": {
+    "notification_id": "NTF-2026-000058",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "report_status_updated",
+    "trip": 4,
+    "title": "Incident Report Update",
+    "message": "Your incident report RPT-2026-000003 has been marked as REJECTED by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T18:40:54.730Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 59,
+  "fields": {
+    "notification_id": "NTF-2026-000059",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "report_status_updated",
+    "trip": 4,
+    "title": "Incident Report Closed",
+    "message": "Your incident report RPT-2026-000003 has been marked as CLOSED by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T18:40:57.681Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 60,
+  "fields": {
+    "notification_id": "NTF-2026-000060",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "New Offer Received",
+    "message": "You received a new offer of 22000.00 for your load from THUNGA RAGHVENDRA REDDY.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:21:56.148Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 61,
+  "fields": {
+    "notification_id": "NTF-2026-000061",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "offer_accepted",
+    "trip": null,
+    "title": "Offer Accepted",
+    "message": "Your offer of 22000.00 for the load from hyderabad to proddutur has been accepted.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:23:17.712Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 62,
+  "fields": {
+    "notification_id": "NTF-2026-000062",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "driver_assigned",
+    "trip": 5,
+    "title": "Driver Assigned",
+    "message": "Driver Thunga Raghavendra reddy has been assigned to your trip TRP-2026-000005. Driver mobile number: 06281923475.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:24:28.686Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 63,
+  "fields": {
+    "notification_id": "NTF-2026-000063",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_started",
+    "trip": 5,
+    "title": "Trip Started",
+    "message": "Your trip TRP-2026-000005 has started. The truck is travelling from hyderabad to proddutur.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:24:30.900Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 64,
+  "fields": {
+    "notification_id": "NTF-2026-000064",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "delivery_delivered",
+    "trip": 5,
+    "title": "Shipment Delivered - Action Required",
+    "message": "Transporter has delivered shipment for Trip #TRP-2026-000005 at proddutur and uploaded the destination unload report/receipt. Please inspect and click Confirm Delivery to finalize the trip.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:24:51.995Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 65,
+  "fields": {
+    "notification_id": "NTF-2026-000065",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "delivery_delivered",
+    "trip": 5,
+    "title": "Shipment Delivered - Action Required",
+    "message": "Transporter has delivered shipment for Trip #TRP-2026-000005 at proddutur and uploaded the destination unload report/receipt. Please inspect and click Confirm Delivery to finalize the trip.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:25:23.968Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 66,
+  "fields": {
+    "notification_id": "NTF-2026-000066",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "delivery_delivered",
+    "trip": 5,
+    "title": "Shipment Delivered - Action Required",
+    "message": "Transporter has delivered shipment for Trip #TRP-2026-000005 at proddutur and uploaded the destination unload report/receipt. Please inspect and click Confirm Delivery to finalize the trip.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:27:38.344Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 67,
+  "fields": {
+    "notification_id": "NTF-2026-000067",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "delivery_completed",
+    "trip": 5,
+    "title": "Trip Confirmed & Completed!",
+    "message": "Customer has confirmed delivery for Trip #TRP-2026-000005. Trip is officially completed. Truck and Driver are now available. Payment ledger has been finalized.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:36:00.268Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 68,
+  "fields": {
+    "notification_id": "NTF-2026-000068",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "New Offer Received",
+    "message": "You received a new offer of 7000.00 for your load from THUNGA RAGHVENDRA REDDY.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:38:39.569Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 69,
+  "fields": {
+    "notification_id": "NTF-2026-000069",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "Offer Price Revised",
+    "message": "Transporter THUNGA RAGHVENDRA REDDY has updated their offer to ₹7000.00 for your load from kadapa to proddutur.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:39:36.073Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 70,
+  "fields": {
+    "notification_id": "NTF-2026-000070",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "offer_accepted",
+    "trip": null,
+    "title": "Offer Accepted",
+    "message": "Your offer of 7000.00 for the load from kadapa to proddutur has been accepted.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:39:53.152Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 71,
+  "fields": {
+    "notification_id": "NTF-2026-000071",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "driver_assigned",
+    "trip": 6,
+    "title": "Driver Assigned",
+    "message": "Driver Thunga Raghavendra reddy has been assigned to your trip TRP-2026-000006. Driver mobile number: 06281923475.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:40:03.518Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 72,
+  "fields": {
+    "notification_id": "NTF-2026-000072",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_started",
+    "trip": 6,
+    "title": "Trip Started",
+    "message": "Your trip TRP-2026-000006 has started. The truck is travelling from kadapa to proddutur.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:40:05.640Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 73,
+  "fields": {
+    "notification_id": "NTF-2026-000073",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": 6,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000006 status has been updated to In Transit. Current location: kadapa.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:41:02.609Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 74,
+  "fields": {
+    "notification_id": "NTF-2026-000074",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": 6,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000006 status has been updated to Near Destination. Current location: kadapa.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:41:20.241Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 75,
+  "fields": {
+    "notification_id": "NTF-2026-000075",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": 6,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000006 status has been updated to Arrived. Current location: kadapa.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:41:33.238Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 76,
+  "fields": {
+    "notification_id": "NTF-2026-000076",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "delivery_delivered",
+    "trip": 6,
+    "title": "Shipment Delivered - Action Required",
+    "message": "Transporter has delivered shipment for Trip #TRP-2026-000006 at proddutur and uploaded the destination unload report/receipt. Please inspect and click Confirm Delivery to finalize the trip.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:41:50.387Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 77,
+  "fields": {
+    "notification_id": "NTF-2026-000077",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "delivery_completed",
+    "trip": 6,
+    "title": "Trip Confirmed & Completed!",
+    "message": "Customer has confirmed delivery for Trip #TRP-2026-000006. Trip is officially completed. Truck and Driver are now available. Payment ledger has been finalized.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:42:00.452Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 78,
+  "fields": {
+    "notification_id": "NTF-2026-000078",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "payment_received",
+    "trip": null,
+    "title": "Payment Received",
+    "message": "Payment of 2000 has been received for trip TRP-2026-000006. Payment reference: QWSEDRFTGYHUJK.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:47:32.012Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 79,
+  "fields": {
+    "notification_id": "NTF-2026-000079",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "report_created",
+    "trip": null,
+    "title": "New Report Created",
+    "message": "A report has been created against you for trip TRP-2026-000006.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:49:28.311Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 80,
+  "fields": {
+    "notification_id": "NTF-2026-000080",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "report_status_updated",
+    "trip": 6,
+    "title": "Incident Report Update",
+    "message": "Your incident report RPT-2026-000005 has been marked as UNDER_REVIEW by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:51:33.793Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 81,
+  "fields": {
+    "notification_id": "NTF-2026-000081",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "report_status_updated",
+    "trip": 6,
+    "title": "Incident Report Closed",
+    "message": "Your incident report RPT-2026-000005 has been marked as RESOLVED by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:52:10.157Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 82,
+  "fields": {
+    "notification_id": "NTF-2026-000082",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "dispute_created",
+    "trip": 6,
+    "title": "Report Escalated to Formal Dispute",
+    "message": "Your incident report RPT-2026-000005 has been escalated to formal arbitration dispute #DSP-2026-000004 by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:52:34.111Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 83,
+  "fields": {
+    "notification_id": "NTF-2026-000083",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "dispute_created",
+    "trip": 6,
+    "title": "Formal Dispute Opened",
+    "message": "Incident report RPT-2026-000005 has been escalated to formal arbitration dispute #DSP-2026-000004. Please review and submit your counter-evidence.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:52:34.111Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 84,
+  "fields": {
+    "notification_id": "NTF-2026-000084",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Counter-Evidence Submitted on Dispute",
+    "message": "Counter-evidence & statement submitted on Dispute #DSP-2026-000004 (Trip #TRP-2026-000006).",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:53:10.609Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 85,
+  "fields": {
+    "notification_id": "NTF-2026-000085",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Counter-Evidence Submitted on Dispute",
+    "message": "Counter-evidence & statement submitted on Dispute #DSP-2026-000004 (Trip #TRP-2026-000006).",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:53:24.914Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 86,
+  "fields": {
+    "notification_id": "NTF-2026-000086",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Counter-Evidence Submitted on Dispute",
+    "message": "Counter-evidence & statement submitted on Dispute #DSP-2026-000004 (Trip #TRP-2026-000006).",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:53:50.605Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 87,
+  "fields": {
+    "notification_id": "NTF-2026-000087",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Dispute #DSP-2026-000004 Hearing Decision",
+    "message": "Dispute status is now UNDER_REVIEW. Finding: Initiating formal platform dispute hearing to mediate financial settlement.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:54:31.384Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 88,
+  "fields": {
+    "notification_id": "NTF-2026-000088",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Dispute #DSP-2026-000004 Hearing Decision",
+    "message": "Dispute status is now UNDER_REVIEW. Finding: Initiating formal platform dispute hearing to mediate financial settlement.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:54:31.388Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 89,
+  "fields": {
+    "notification_id": "NTF-2026-000089",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Dispute #DSP-2026-000004 Hearing Decision",
+    "message": "Dispute status is now UNDER_REVIEW. Finding: Initiating formal platform dispute hearing to mediate financial settlement.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:54:31.403Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 90,
+  "fields": {
+    "notification_id": "NTF-2026-000090",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Counter-Evidence Submitted on Dispute",
+    "message": "Counter-evidence & statement submitted on Dispute #DSP-2026-000004 (Trip #TRP-2026-000006).",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:55:36.987Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 91,
+  "fields": {
+    "notification_id": "NTF-2026-000091",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Counter-Evidence Submitted on Dispute",
+    "message": "Counter-evidence & statement submitted on Dispute #DSP-2026-000004 (Trip #TRP-2026-000006).",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:55:53.992Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 92,
+  "fields": {
+    "notification_id": "NTF-2026-000092",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Dispute #DSP-2026-000004 Hearing Decision",
+    "message": "Dispute status is now WAITING_FOR_OWNER. Finding: Initiating formal platform dispute hearing to mediate financial settlement.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:56:34.720Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 93,
+  "fields": {
+    "notification_id": "NTF-2026-000093",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Dispute #DSP-2026-000004 Hearing Decision",
+    "message": "Dispute status is now WAITING_FOR_OWNER. Finding: Initiating formal platform dispute hearing to mediate financial settlement.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:56:34.734Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 94,
+  "fields": {
+    "notification_id": "NTF-2026-000094",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 6,
+    "title": "Dispute #DSP-2026-000004 Hearing Decision",
+    "message": "Dispute status is now WAITING_FOR_OWNER. Finding: Initiating formal platform dispute hearing to mediate financial settlement.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:56:34.736Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 95,
+  "fields": {
+    "notification_id": "NTF-2026-000095",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 6,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000005 was generated for Dispute #DSP-2026-000004 (Trip #TRP-2026-000006). Payout / Adjustment: ₹8000.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:57:49.469Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 96,
+  "fields": {
+    "notification_id": "NTF-2026-000096",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 6,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000005 was generated for Dispute #DSP-2026-000004 (Trip #TRP-2026-000006). Payout / Adjustment: ₹8000.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:57:49.469Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 97,
+  "fields": {
+    "notification_id": "NTF-2026-000097",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 6,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000006 was generated for Dispute #DSP-2026-000004 (Trip #TRP-2026-000006). Payout / Adjustment: ₹8000.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:58:55.203Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 98,
+  "fields": {
+    "notification_id": "NTF-2026-000098",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 6,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000006 was generated for Dispute #DSP-2026-000004 (Trip #TRP-2026-000006). Payout / Adjustment: ₹8000.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:58:55.203Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 99,
+  "fields": {
+    "notification_id": "NTF-2026-000099",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": null,
+    "title": "Settlement Finalized",
+    "message": "Settlement SET-2026-000006 for trip #TRP-2026-000006 has been marked as settled.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:59:10.119Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 100,
+  "fields": {
+    "notification_id": "NTF-2026-000100",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": null,
+    "title": "Settlement Finalized",
+    "message": "Settlement SET-2026-000006 for trip #TRP-2026-000006 has been marked as settled.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:59:10.119Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 101,
+  "fields": {
+    "notification_id": "NTF-2026-000101",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": null,
+    "title": "Settlement Finalized",
+    "message": "Settlement SET-2026-000006 for trip #TRP-2026-000006 has been marked as settled.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:59:28.055Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 102,
+  "fields": {
+    "notification_id": "NTF-2026-000102",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": null,
+    "title": "Settlement Finalized",
+    "message": "Settlement SET-2026-000006 for trip #TRP-2026-000006 has been marked as settled.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-09-30T19:59:28.072Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 103,
+  "fields": {
+    "notification_id": "NTF-2026-000103",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "payment_received",
+    "trip": null,
+    "title": "Payment Received",
+    "message": "Payment of 4988 has been received for trip TRP-2026-000006. Payment reference: jhhgiuyfdf.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:09:58.360Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 104,
+  "fields": {
+    "notification_id": "NTF-2026-000104",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "New Offer Received",
+    "message": "You received a new offer of 40000.00 for your load from THUNGA RAGHVENDRA REDDY.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:48:23.096Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 105,
+  "fields": {
+    "notification_id": "NTF-2026-000105",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "Offer Price Revised",
+    "message": "Transporter THUNGA RAGHVENDRA REDDY has updated their offer to ₹40000.00 for your load from kolkata to hyderbad.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:50:06.218Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 106,
+  "fields": {
+    "notification_id": "NTF-2026-000106",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "offer_accepted",
+    "trip": null,
+    "title": "Offer Accepted",
+    "message": "Your offer of 40000.00 for the load from kolkata to hyderbad has been accepted.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:50:33.976Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 107,
+  "fields": {
+    "notification_id": "NTF-2026-000107",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "driver_assigned",
+    "trip": 7,
+    "title": "Driver Assigned",
+    "message": "Driver Thunga Raghavendra reddy has been assigned to your trip TRP-2026-000007. Driver mobile number: 06281923475.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:50:50.049Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 108,
+  "fields": {
+    "notification_id": "NTF-2026-000108",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_started",
+    "trip": 7,
+    "title": "Trip Started",
+    "message": "Your trip TRP-2026-000007 has started. The truck is travelling from kolkata to hyderbad.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:50:56.234Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 109,
+  "fields": {
+    "notification_id": "NTF-2026-000109",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "trip_status_changed",
+    "trip": 7,
+    "title": "Trip Status Updated",
+    "message": "Your trip TRP-2026-000007 status has been updated to In Transit. Current location: kolkata.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:51:08.118Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 110,
+  "fields": {
+    "notification_id": "NTF-2026-000110",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "delivery_delivered",
+    "trip": 7,
+    "title": "Shipment Delivered - Action Required",
+    "message": "Transporter has delivered shipment for Trip #TRP-2026-000007 at hyderbad and uploaded the destination unload report/receipt. Please inspect and click Confirm Delivery to finalize the trip.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:51:40.844Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 111,
+  "fields": {
+    "notification_id": "NTF-2026-000111",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "delivery_completed",
+    "trip": 7,
+    "title": "Trip Confirmed & Completed!",
+    "message": "Customer has confirmed delivery for Trip #TRP-2026-000007. Trip is officially completed. Truck and Driver are now available. Payment ledger has been finalized.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:51:51.940Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 112,
+  "fields": {
+    "notification_id": "NTF-2026-000112",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "payment_received",
+    "trip": null,
+    "title": "Payment Received",
+    "message": "Payment of 20000 has been received for trip TRP-2026-000007. Payment reference: EFRFSDCSDC.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:52:24.974Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 113,
+  "fields": {
+    "notification_id": "NTF-2026-000113",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "report_created",
+    "trip": null,
+    "title": "New Report Created",
+    "message": "A report has been created against you for trip TRP-2026-000007.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:53:00.387Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 114,
+  "fields": {
+    "notification_id": "NTF-2026-000114",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "report_status_updated",
+    "trip": 7,
+    "title": "Incident Report Closed",
+    "message": "Your incident report RPT-2026-000006 has been marked as RESOLVED by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:55:07.275Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 115,
+  "fields": {
+    "notification_id": "NTF-2026-000115",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "dispute_created",
+    "trip": 7,
+    "title": "Report Escalated to Formal Dispute",
+    "message": "Your incident report RPT-2026-000006 has been escalated to formal arbitration dispute #DSP-2026-000005 by platform administrators.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:55:35.191Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 116,
+  "fields": {
+    "notification_id": "NTF-2026-000116",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "dispute_created",
+    "trip": 7,
+    "title": "Formal Dispute Opened",
+    "message": "Incident report RPT-2026-000006 has been escalated to formal arbitration dispute #DSP-2026-000005. Please review and submit your counter-evidence.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:55:35.191Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 117,
+  "fields": {
+    "notification_id": "NTF-2026-000117",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 7,
+    "title": "Counter-Evidence Submitted on Dispute",
+    "message": "Counter-evidence & statement submitted on Dispute #DSP-2026-000005 (Trip #TRP-2026-000007).",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:56:18.546Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 118,
+  "fields": {
+    "notification_id": "NTF-2026-000118",
+    "reference_key": null,
+    "recipient": [
+      "ragava12@gmail.com"
+    ],
+    "notification_type": "dispute_updated",
+    "trip": 7,
+    "title": "Counter-Evidence Submitted on Dispute",
+    "message": "Counter-evidence & statement submitted on Dispute #DSP-2026-000005 (Trip #TRP-2026-000007).",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:56:23.949Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 119,
+  "fields": {
+    "notification_id": "NTF-2026-000119",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 7,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000007 was generated for Dispute #DSP-2026-000005 (Trip #TRP-2026-000007). Payout / Adjustment: ₹37000.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:56:58.514Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 120,
+  "fields": {
+    "notification_id": "NTF-2026-000120",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "settlement_completed",
+    "trip": 7,
+    "title": "Financial Settlement Determined",
+    "message": "Settlement #SET-2026-000007 was generated for Dispute #DSP-2026-000005 (Trip #TRP-2026-000007). Payout / Adjustment: ₹37000.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T05:56:58.523Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 121,
+  "fields": {
+    "notification_id": "NTF-2026-000121",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "New Offer Received",
+    "message": "You received a new offer of 40000.00 for your load from THUNGA RAGHVENDRA REDDY.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T06:08:19.350Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 122,
+  "fields": {
+    "notification_id": "NTF-2026-000122",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "Offer Price Revised",
+    "message": "Transporter THUNGA RAGHVENDRA REDDY has updated their offer to ₹38000.00 for your load from kolkata to proddutur.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T06:09:45.879Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 123,
+  "fields": {
+    "notification_id": "NTF-2026-000123",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "New Offer Received",
+    "message": "You received a new offer of 45000.00 for your load from THUNGA RAGHVENDRA REDDY.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T06:10:16.002Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 124,
+  "fields": {
+    "notification_id": "NTF-2026-000124",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "notification_type": "cancellation",
+    "trip": null,
+    "title": "Offer Declined",
+    "message": "Your offer of ₹45000.00 for load from kolkata to proddutur was declined.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T06:10:49.815Z",
+    "read_at": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 125,
+  "fields": {
+    "notification_id": "NTF-2026-000125",
+    "reference_key": null,
+    "recipient": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "notification_type": "offer_received",
+    "trip": null,
+    "title": "New Offer Received",
+    "message": "You received a new offer of 40000.00 for your load from THUNGA RAGHVENDRA REDDY.",
+    "priority": "normal",
+    "is_read": false,
+    "created_at": "2026-10-01T06:11:11.353Z",
+    "read_at": null
+  }
+},
+{
+  "model": "deliveries.deliveryproof",
+  "pk": 1,
+  "fields": {
+    "trip": 1,
+    "proof_type": "delivery_receipt",
+    "file": "delivery_proofs/Screenshot_2026-09-25_122551.png",
+    "notes": "Customer signed the delivery receipt at destination.",
+    "uploaded_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-25T09:32:50.351Z"
+  }
+},
+{
+  "model": "deliveries.deliveryproof",
+  "pk": 2,
+  "fields": {
+    "trip": 2,
+    "proof_type": "delivery_receipt",
+    "file": "delivery_proofs/Screenshot_2026-09-28_150531.png",
+    "notes": "Delivery receipt uploaded",
+    "uploaded_by": [
+      "owner@test.com"
+    ],
+    "created_at": "2026-09-28T10:03:16.594Z"
+  }
+},
+{
+  "model": "deliveries.deliveryproof",
+  "pk": 3,
+  "fields": {
+    "trip": 4,
+    "proof_type": "photo",
+    "file": "delivery_proofs/2026-09-13.png",
+    "notes": null,
+    "uploaded_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T10:40:40.779Z"
+  }
+},
+{
+  "model": "deliveries.deliveryproof",
+  "pk": 4,
+  "fields": {
+    "trip": 5,
+    "proof_type": "delivery_receipt",
+    "file": "",
+    "notes": "[Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000005-6234] Cargo successfullserbyy unloaded at destination dock in intact condition. Delivery receipt and consignee sign-off verified.",
+    "uploaded_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:24:51.987Z"
+  }
+},
+{
+  "model": "deliveries.deliveryproof",
+  "pk": 5,
+  "fields": {
+    "trip": 5,
+    "proof_type": "delivery_receipt",
+    "file": "",
+    "notes": "[Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000005-6456] Cargo successfully unloaded at destination dock in intact condition. Delivery receipt and consignee sign-off verified.",
+    "uploaded_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:25:23.958Z"
+  }
+},
+{
+  "model": "deliveries.deliveryproof",
+  "pk": 6,
+  "fields": {
+    "trip": 5,
+    "proof_type": "pod_document",
+    "file": "",
+    "notes": "[Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000005-4101] cargo loaded at pickpoint",
+    "uploaded_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:27:38.344Z"
+  }
+},
+{
+  "model": "deliveries.deliveryproof",
+  "pk": 7,
+  "fields": {
+    "trip": 6,
+    "proof_type": "pod_document",
+    "file": "",
+    "notes": "[Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000006-9186] Cargo successfully unloaded at destination dock in intact condition. Delivery receipt and consignee sign-off verified.",
+    "uploaded_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-09-30T19:41:50.387Z"
+  }
+},
+{
+  "model": "deliveries.deliveryproof",
+  "pk": 8,
+  "fields": {
+    "trip": 7,
+    "proof_type": "delivery_receipt",
+    "file": "",
+    "notes": "[Receiver: THUNGA RAGHVENDRA REDDY] [Ref: POD-TRP-2026-000007-1545] Cargo successfully unloaded at destination dock in intact condition. Delivery receipt and consignee sign-off verified.",
+    "uploaded_by": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "created_at": "2026-10-01T05:51:40.839Z"
+  }
+},
+{
+  "model": "conversations.conversation",
+  "pk": 1,
+  "fields": {
+    "load": 3,
+    "offer": 1,
+    "created_at": "2026-09-29T07:19:33.428Z",
+    "updated_at": "2026-09-29T07:21:41.685Z"
+  }
+},
+{
+  "model": "conversations.conversation",
+  "pk": 2,
+  "fields": {
+    "load": 4,
+    "offer": 2,
+    "created_at": "2026-09-29T07:19:33.461Z",
+    "updated_at": "2026-09-29T07:19:33.461Z"
+  }
+},
+{
+  "model": "conversations.conversation",
+  "pk": 3,
+  "fields": {
+    "load": 5,
+    "offer": 3,
+    "created_at": "2026-09-29T07:19:33.481Z",
+    "updated_at": "2026-09-29T07:19:33.481Z"
+  }
+},
+{
+  "model": "conversations.conversation",
+  "pk": 4,
+  "fields": {
+    "load": 6,
+    "offer": 4,
+    "created_at": "2026-09-30T08:31:32.415Z",
+    "updated_at": "2026-09-30T08:33:01.544Z"
+  }
+},
+{
+  "model": "conversations.conversation",
+  "pk": 5,
+  "fields": {
+    "load": 8,
+    "offer": 5,
+    "created_at": "2026-09-30T19:22:04.854Z",
+    "updated_at": "2026-09-30T19:22:15.532Z"
+  }
+},
+{
+  "model": "conversations.conversation",
+  "pk": 6,
+  "fields": {
+    "load": 9,
+    "offer": 6,
+    "created_at": "2026-09-30T19:38:49.712Z",
+    "updated_at": "2026-09-30T19:39:23.574Z"
+  }
+},
+{
+  "model": "conversations.conversation",
+  "pk": 7,
+  "fields": {
+    "load": 10,
+    "offer": 7,
+    "created_at": "2026-10-01T05:48:57.419Z",
+    "updated_at": "2026-10-01T05:49:27.174Z"
+  }
+},
+{
+  "model": "conversations.message",
+  "pk": 1,
+  "fields": {
+    "conversation": 1,
+    "sender": [
+      "customer@test.com"
+    ],
+    "message": "Can we negotiate the freight price?",
+    "created_at": "2026-09-29T07:20:17.437Z",
+    "is_read": false
+  }
+},
+{
+  "model": "conversations.message",
+  "pk": 2,
+  "fields": {
+    "conversation": 1,
+    "sender": [
+      "owner@test.com"
+    ],
+    "message": "Yes, we can discuss the price.",
+    "created_at": "2026-09-29T07:21:41.673Z",
+    "is_read": true
+  }
+},
+{
+  "model": "conversations.message",
+  "pk": 3,
+  "fields": {
+    "conversation": 4,
+    "sender": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "message": "25000",
+    "created_at": "2026-09-30T08:32:26.443Z",
+    "is_read": false
+  }
+},
+{
+  "model": "conversations.message",
+  "pk": 4,
+  "fields": {
+    "conversation": 4,
+    "sender": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "message": "OK",
+    "created_at": "2026-09-30T08:33:01.540Z",
+    "is_read": false
+  }
+},
+{
+  "model": "conversations.message",
+  "pk": 5,
+  "fields": {
+    "conversation": 5,
+    "sender": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "message": "22,000",
+    "created_at": "2026-09-30T19:22:15.532Z",
+    "is_read": false
+  }
+},
+{
+  "model": "conversations.message",
+  "pk": 6,
+  "fields": {
+    "conversation": 6,
+    "sender": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "message": "7000 is final",
+    "created_at": "2026-09-30T19:39:06.800Z",
+    "is_read": false
+  }
+},
+{
+  "model": "conversations.message",
+  "pk": 7,
+  "fields": {
+    "conversation": 6,
+    "sender": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "message": "ok",
+    "created_at": "2026-09-30T19:39:23.572Z",
+    "is_read": false
+  }
+},
+{
+  "model": "conversations.message",
+  "pk": 8,
+  "fields": {
+    "conversation": 7,
+    "sender": [
+      "thungaraghavendrareddy606@gmail.com"
+    ],
+    "message": "35000",
+    "created_at": "2026-10-01T05:49:07.266Z",
+    "is_read": false
+  }
+},
+{
+  "model": "conversations.message",
+  "pk": 9,
+  "fields": {
+    "conversation": 7,
+    "sender": [
+      "thungaraghavendrareddy605@gmail.com"
+    ],
+    "message": "ok",
+    "created_at": "2026-10-01T05:49:27.167Z",
+    "is_read": false
+  }
+}
+]
