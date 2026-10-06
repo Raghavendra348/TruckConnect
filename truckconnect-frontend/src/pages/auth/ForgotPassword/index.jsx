@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { authAPI } from '../../../services/api';
 import Input from '../../../components/Input';
 import Button from '../../../components/Button';
 import ErrorMessage from '../../../components/ErrorMessage';
@@ -7,10 +8,12 @@ import logoSvg from '../../../assets/truckconnect-logo.svg';
 import './index.css';
 
 const ForgotPassword = () => {
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [isSent, setIsSent] = useState(false);
+  const [resetData, setResetData] = useState(null);
 
   const handleForgotPassword = async (e) => {
     e.preventDefault();
@@ -22,11 +25,28 @@ const ForgotPassword = () => {
     }
 
     setIsSubmitting(true);
-    // Simulate/trigger password reset request
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      const response = await authAPI.forgotPassword({ email: email.trim().toLowerCase() });
+      setResetData(response.data);
       setIsSent(true);
-    }, 1000);
+    } catch (error) {
+      const data = error.response?.data;
+      setErrorMessage(
+        data?.detail || data?.email?.[0] || data?.message || 'Unable to process password reset request. Please check your email address.'
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleProceedToReset = () => {
+    navigate('/reset-password', {
+      state: {
+        email: email.trim().toLowerCase(),
+        uid: resetData?.uid || '',
+        token: resetData?.token || '',
+      },
+    });
   };
 
   return (
@@ -47,16 +67,14 @@ const ForgotPassword = () => {
         {isSent ? (
           <div className="forgot-success-container">
             <div className="forgot-success-icon">&#9993;</div>
-            <h4 className="forgot-success-title">Reset Instructions Sent</h4>
+            <h4 className="forgot-success-title">Account Verified</h4>
             <p className="forgot-success-text">
-              If an account is associated with <strong>{email}</strong>, a password reset link has been sent.
+              Password recovery token has been generated for <strong>{email}</strong>.
             </p>
             <div className="forgot-success-actions">
-              <Link to="/reset-password">
-                <Button variant="primary" size="md">
-                  Enter Reset Code
-                </Button>
-              </Link>
+              <Button variant="primary" size="md" onClick={handleProceedToReset}>
+                Proceed to Set New Password &rarr;
+              </Button>
               <Link to="/login" className="back-login-link">
                 Back to Sign In
               </Link>

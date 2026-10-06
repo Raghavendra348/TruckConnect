@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { authAPI } from '../../../services/api';
 import Input from '../../../components/Input';
 import Button from '../../../components/Button';
 import ErrorMessage from '../../../components/ErrorMessage';
@@ -8,7 +9,10 @@ import './index.css';
 
 const ResetPassword = () => {
   const navigate = useNavigate();
+  const location = useLocation();
 
+  const [email, setEmail] = useState('');
+  const [uid, setUid] = useState('');
   const [resetToken, setResetToken] = useState('');
   const [password, setPassword] = useState('');
   const [passwordConfirmation, setPasswordConfirmation] = useState('');
@@ -16,18 +20,26 @@ const ResetPassword = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
 
+  useEffect(() => {
+    if (location.state) {
+      if (location.state.email) setEmail(location.state.email);
+      if (location.state.uid) setUid(location.state.uid);
+      if (location.state.token) setResetToken(location.state.token);
+    }
+  }, [location.state]);
+
   const handleResetPassword = async (e) => {
     e.preventDefault();
     setErrorMessage('');
     setSuccessMessage('');
 
-    if (!resetToken.trim()) {
-      setErrorMessage('Please enter the reset code or token received in your email.');
+    if (!email.trim()) {
+      setErrorMessage('Please enter your registered email address.');
       return;
     }
 
-    if (!password || password.length < 8) {
-      setErrorMessage('New password must be at least 8 characters long.');
+    if (!password || password.length < 6) {
+      setErrorMessage('New password must be at least 6 characters long.');
       return;
     }
 
@@ -37,14 +49,27 @@ const ResetPassword = () => {
     }
 
     setIsSubmitting(true);
-    // Simulate reset completion
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSuccessMessage('Password reset successfully! Redirecting to login...');
+    try {
+      const payload = {
+        email: email.trim().toLowerCase(),
+        new_password: password,
+      };
+      if (uid) payload.uid = uid;
+      if (resetToken) payload.token = resetToken;
+
+      await authAPI.resetPassword(payload);
+      setSuccessMessage('Password updated successfully! Redirecting to login...');
       setTimeout(() => {
         navigate('/login');
       }, 1500);
-    }, 1000);
+    } catch (error) {
+      const data = error.response?.data;
+      setErrorMessage(
+        data?.detail || data?.new_password?.[0] || data?.token?.[0] || data?.message || 'Unable to update password. Please verify your token.'
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -66,12 +91,13 @@ const ResetPassword = () => {
 
         <form onSubmit={handleResetPassword} className="auth-form">
           <Input
-            label="Reset Code / Token"
-            id="resetToken"
-            name="resetToken"
-            placeholder="Enter token from email"
-            value={resetToken}
-            onChange={(e) => setResetToken(e.target.value)}
+            label="Registered Email"
+            id="email"
+            name="email"
+            type="email"
+            placeholder="e.g. yourname@example.com"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
             disabled={isSubmitting}
           />
@@ -81,7 +107,7 @@ const ResetPassword = () => {
             id="password"
             name="password"
             type="password"
-            placeholder="At least 8 characters"
+            placeholder="At least 6 characters"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required

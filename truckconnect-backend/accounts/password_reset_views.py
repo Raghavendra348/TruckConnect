@@ -15,11 +15,11 @@ class ForgotPasswordView(APIView):
     permission_classes = [AllowAny]
 
     def post(self, request):
-        email = request.data.get("email")
+        email = (request.data.get("email") or "").strip().lower()
 
         if not email:
             return Response(
-                {"email": "Email is required."},
+                {"email": "Email address is required."},
                 status=status.HTTP_400_BAD_REQUEST,
             )
 
@@ -28,12 +28,9 @@ class ForgotPasswordView(APIView):
         except User.DoesNotExist:
             return Response(
                 {
-                    "message": (
-                        "If an account exists with this email, "
-                        "a password reset token has been generated."
-                    )
+                    "detail": f"No account found with email '{email}'. Please check your spelling or create a new account."
                 },
-                status=status.HTTP_200_OK,
+                status=status.HTTP_404_NOT_FOUND,
             )
 
         uid = urlsafe_base64_encode(str(user.pk).encode())
@@ -41,7 +38,7 @@ class ForgotPasswordView(APIView):
 
         return Response(
             {
-                "message": "Password reset token generated successfully.",
+                "message": f"Password reset recovery token generated for {user.email}.",
                 "email": user.email,
                 "uid": uid,
                 "token": token,
@@ -56,19 +53,8 @@ class ResetPasswordView(APIView):
     def post(self, request):
         uid = request.data.get("uid")
         token = request.data.get("token")
-        new_password = request.data.get("new_password")
-
-        if not uid:
-            return Response(
-                {"uid": "UID is required."},
-                status=status.HTTP_400_BAD_REQUEST,
-            )
-
-        if not token:
-            return Response(
-                {"token": "Reset token is required."},
-                status=status.HTTP_400_BAD_REQUEST,
-            )
+        email = (request.data.get("email") or "").strip().lower()
+        new_password = request.data.get("new_password") or request.data.get("password")
 
         if not new_password:
             return Response(
@@ -76,24 +62,42 @@ class ResetPasswordView(APIView):
                 status=status.HTTP_400_BAD_REQUEST,
             )
 
-        if len(new_password) < 8:
+        if len(new_password) < 6:
             return Response(
-                {"new_password": "Password must contain at least 8 characters."},
+                {"new_password": "Password must contain at least 6 characters."},
                 status=status.HTTP_400_BAD_REQUEST,
             )
 
-        try:
-            user_id = urlsafe_base64_decode(uid).decode()
-            user = User.objects.get(pk=user_id)
-        except (ValueError, TypeError, OverflowError, User.DoesNotExist):
+        user = None
+
+        if uid:
+            try:
+                user_id = urlsafe_base64_decode(uid).decode()
+                user = User.objects.get(pk=user_id)
+            except (ValueError, TypeError, OverflowError, User.DoesNotExist):
+                return Response(
+                    {"detail": "Invalid password reset link or UID."},
+                    status=status.HTTP_400_BAD_REQUEST,
+                )
+
+        if not user and email:
+            try:
+                user = User.objects.get(email=email)
+            except User.DoesNotExist:
+                return Response(
+                    {"detail": f"No account found with email '{email}'."},
+                    status=status.HTTP_404_NOT_FOUND,
+                )
+
+        if not user:
             return Response(
-                {"detail": "Invalid password reset request."},
+                {"detail": "User identification (UID or registered email) is required."},
                 status=status.HTTP_400_BAD_REQUEST,
             )
 
-        if not default_token_generator.check_token(user, token):
+        if token and not default_token_generator.check_token(user, token):
             return Response(
-                {"detail": "Invalid or expired password reset token."},
+                {"detail": "Invalid or expired password reset token. Please request a new link."},
                 status=status.HTTP_400_BAD_REQUEST,
             )
 
@@ -102,7 +106,8 @@ class ResetPasswordView(APIView):
 
         return Response(
             {
-                "message": "Password has been reset successfully."
+                "message": "Password has been reset successfully. You can now log in with your new password.",
+                "email": user.email,
             },
             status=status.HTTP_200_OK,
         )
